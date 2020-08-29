@@ -25,3 +25,25 @@ function loadWikipedia(url, id){
     });
   }
 }
+
+
+function loadHeroes(url, id){
+  var el = document.getElementById(id);
+  $.getJSON(url, function(json) {
+    herolist = json;
+    var lis = herolist.map(item => {
+      let li = document.createElement('li');
+      let s1 = document.createElement('span');
+      s1.innerHTML = `<a onclick="expandHero('${item['people']})','${item['wiki']}');">${item['people']}</a>`;
+      li.appendChild(s1);
+      let s2 = document.createElement('span');
+      s2.innerHTML = '&#x1f44d;'+item['vote']+' ';
+      let a1 = document.createElement('a');
+      a1.href= item['wiki'];
+      a1.innerText = 'wikipedia';
+      li.appendChild(a1);
+      el.appendChild(li);
+    });
+  })
+
+}

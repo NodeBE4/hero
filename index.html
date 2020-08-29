@@ -5,30 +5,64 @@ people: 许章润
 ---
 
 <script src="{{ site.baseurl }}/assets/js/hero.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <div id="explain">
 <h4>说明</h4>
-<p>本页由js动态生成，人物介绍由函数loadWikipedia从预设的Wikipedia网址动态加载，最新动态里的新闻由SimpleJekyllSearch从<a href="https://nodebe4.github.io/waimei/search.json">https://nodebe4.github.io/waimei/search.json</a>中按照人物名字搜索返回。根据你的网络情况，页面内容加载时间大概需3-8秒，如最近动态显示没找到，可刷新网页。</p>
-</div>
-<h1>演示页</h1>
-
-<div id="article"></div>
-
-<div id="news">
-  <h3>最近动态</h3>
-  <ul id="results-container" class="searched" style="color: #2980B9;"></ul>
+<p>本页由js动态生成，目前僅用於演示。</p>
+<p>人物列表存放於<a href="https://nodebe4.github.io/hero/index.json">https://nodebe4.github.io/hero/index.json</a></p>
+<p>點擊人物列表中的名字可展開其詳細介紹和近期相關新聞報道。人物介绍由函数loadWikipedia从预设的Wikipedia网址动态加载，最新动态里的新闻由SimpleJekyllSearch从<a href="https://nodebe4.github.io/waimei/search.json">https://nodebe4.github.io/waimei/search.json</a>中按照人物名字搜索返回。根据你的网络情况，页面内容加载时间大概需3-8秒，如最近动态显示没找到，可刷新网页。</p>
+<p>關於本項目更多討論見這裏<a href="https://2047.name/t/7158">https://2047.name/t/7158</a>.</p>
 </div>
 
+<div id="list">
+	<h1>英雄榜</h1>
+	<ul id="list-container" style="color: #2980B9;"></ul>
+</div>
+
+<div id="post">
+	<h1 id="heroname">演示页</h1>
+	<div id="article"></div>
+
+	<div id="news">
+	  <h3>最近动态</h3>
+	  <ul id="results-container" class="searched" style="color: #2980B9;"></ul>
+	</div>
+</div>
 {% include simple-search.html %}
 
 <!-- Configuration -->
 <script type="text/javascript" >
 
 document.addEventListener("DOMContentLoaded", function(event){
-  setTimeout(function(){ 
-  	sjs.search("{{ page.people }}");
-  }, 5000);
-  loadWikipedia("{{ page.wiki }}", "mw-content-text");
+  var url = "{{ site.baseurl }}/index.json";
+  var id = "list-container";
+  var el = document.getElementById(id);
+  $.getJSON(url, function(json) {
+    herolist = json;
+    var lis = herolist.map(item => {
+      let li = document.createElement('li');
+      let s1 = document.createElement('span');
+      s1.innerHTML = `<a onclick="expandHero('${item['people']}','${item['wiki']}');">${item['people']}</a>`;
+      li.appendChild(s1);
+      let s2 = document.createElement('span');
+      s2.innerHTML = ' '+item['vote']+'贊';
+      s2.classList.add("tag");
+      let a1 = document.createElement('a');
+      a1.href= item['wiki'];
+      a1.innerText = 'wikipedia';
+      a1.classList.add("tag");
+      li.appendChild(a1);
+      li.appendChild(s2);
+      el.appendChild(li);
+    });
+  })
 });
 
+function expandHero(people, wiki){
+  // setTimeout(function(){sjs.search(people);}, 6000);
+  var title = document.getElementById("heroname");
+  title.innerText=people;
+  loadWikipedia(wiki, "mw-content-text");
+  sjs.search(people);
+}
 </script>
