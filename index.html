@@ -1,0 +1,27 @@
+---
+layout: default
+wiki: https://zh.wikipedia.org/wiki/%E8%AE%B8%E7%AB%A0%E6%B6%A6
+people: 许章润
+---
+
+<script src="{{ site.baseurl }}/assets/js/hero.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<h1>演示页</h1>
+
+<div id="article"></div>
+
+<div id="news">
+  <h3>最近动态</h3>
+  <ul id="results-container" class="searched" style="color: #2980B9;"></ul>
+</div>
+
+{% include simple-search.html %}
+
+<!-- Configuration -->
+<script type="text/javascript" >
+document.addEventListener("DOMContentLoaded", function(event){
+  setTimeout(function(){ sjs.search("{{ page.people }}")}, 5000);
+  loadWikipedia("{{ page.wiki }}", "mw-content-text");
+});
+
+</script>
