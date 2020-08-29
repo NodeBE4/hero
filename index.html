@@ -23,8 +23,11 @@ people: 许章润
 
 <!-- Configuration -->
 <script type="text/javascript" >
+
 document.addEventListener("DOMContentLoaded", function(event){
-  setTimeout(function(){ sjs.search("{{ page.people }}")}, 5000);
+  setTimeout(function(){ 
+  	sjs.search("{{ page.people }}");
+  }, 5000);
   loadWikipedia("{{ page.wiki }}", "mw-content-text");
 });
 
