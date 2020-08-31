@@ -66,7 +66,7 @@ function loadNews(hero){
   let relatednews = news.map(item => {
     if (item['title'].includes(hero) || item['desc'].includes(hero)){
       var baseurl = "https://nodebe4.github.io/waimei"
-      ul.innerHTML += `<li><a href="https://nodebe4.github.io${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>`
+      ul.innerHTML += `<li><a href="${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>`
       return item
     }
   })
@@ -82,7 +82,7 @@ function loadOped(hero){
   let relatednews = oped.map(item => {
     if (item['title'].includes(hero) || item['desc'].includes(hero)){
       var baseurl = "https://nodebe4.github.io/opinion"
-      ul.innerHTML += `<li><a href="https://nodebe4.github.io${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>`
+      ul.innerHTML += `<li><a href="${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>`
       return item
     }
   })
