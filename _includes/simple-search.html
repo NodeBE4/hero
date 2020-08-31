@@ -8,8 +8,8 @@
   var sjs = SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: 'https://nodebe4.github.io/waimei/search.json',
-    searchResultTemplate: '<li><a href="https://nodebe4.github.io{url}" title="{desc}">{title}</a><time>{date}</time><a class="tag">{category}</a></li>',
+    json: '{{site.baseurl}}/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a><a class="tag">{author}</a></li>',
     noResultsText: '没找到',
     limit: 50,
     fuzzy: false,
