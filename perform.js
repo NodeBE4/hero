@@ -53,7 +53,7 @@ async function loadWikipedia(url, id){
   // el.innerHTML = html.innerHTML;
   // html.appencChild(content)
 
-  return content.innerHTML;
+  return content.parentElement.innerHTML;
 
 }
 
