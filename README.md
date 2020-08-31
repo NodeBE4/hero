@@ -12,7 +12,7 @@
 https://2047.name/t/7158
 
 ## 1 榜单排名网页工具
-- 首页的表格显示可以用 [bootstrap sortable table](https://mdbootstrap.com/docs/jquery/tables/sort/)
+- 首页的表格显示可以用 [bootstrap sortable table](https://datatables.net/examples/styling/bootstrap4)
 
 ## 2 榜单排名数据说明
 
