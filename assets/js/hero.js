@@ -15,7 +15,7 @@ function loadWikipedia(url, id){
           // tables[i].remove();
         }
         var toc = el.getElementsByClassName("toc");
-        if (toc[0]==undefined){
+        if (toc.length==0){
           toc = el.getElementsByTagName("h2");
         }
         while(toc[0].nextSibling){
