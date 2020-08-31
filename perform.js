@@ -65,7 +65,7 @@ function loadNews(hero){
   h3.innerHTML = "最近动态"
   let relatednews = news.map(item => {
     if (item['title'].includes(hero) || item['desc'].includes(hero)){
-      var baseurl = "https://nodebe4.github.io/waimei"
+      var baseurl = "https://nodebe4.github.io"
       ul.innerHTML += `<li><a href="${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>`
       return item
     }
@@ -81,7 +81,7 @@ function loadOped(hero){
   h3.innerHTML = "过往言论"
   let relatednews = oped.map(item => {
     if (item['title'].includes(hero) || item['desc'].includes(hero)){
-      var baseurl = "https://nodebe4.github.io/opinion"
+      var baseurl = "https://nodebe4.github.io"
       ul.innerHTML += `<li><a href="${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>`
       return item
     }
@@ -92,7 +92,7 @@ function loadOped(hero){
 async function perform() {
   let rawdata = fs.readFileSync('./index.json', {encoding:'utf8', flag:'r'})
   let heroes = JSON.parse(rawdata)
-  console.log(heroes)
+  // console.log(heroes)
 
   await fetch(db_news_url, settings)
     .then(res => res.json())
@@ -133,10 +133,12 @@ categories: [ ${titletext} ]
 `
   md = header + md
   let filename = `${dateString.substring(0, 10)}-${titletext.substring(0, 50)}.md`.replace(/\//g, '--')
-  if (!fs.existsSync(`./_posts/${filename}`)) {
-    fs.writeFileSync(`./_posts/${filename}`, md)
-    console.log(`add ./_posts/${filename}`)
-  }
+  fs.writeFileSync(`./_posts/${filename}`, md)
+  console.log(`add ./_posts/${filename}`)
+  // if (!fs.existsSync(`./_posts/${filename}`)) {
+  //   fs.writeFileSync(`./_posts/${filename}`, md)
+  //   console.log(`add ./_posts/${filename}`)
+  // }
 }
 
 
