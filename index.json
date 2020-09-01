@@ -3,24 +3,52 @@
         "people": "许章润",
         "wiki": "https://zh.wikipedia.org/wiki/%E8%AE%B8%E7%AB%A0%E6%B6%A6",
         "vote": 1,
-        "hash": "c67de2c26645c24cc02ec8dae3ca6cb9"
+        "hash": "c67de2c26645c24cc02ec8dae3ca6cb9",
+        "keyword": "教授",
+        "google": "2440000",
+        "twitter": "16300",
+        "ytb": "48900",
+        "reddit": "2130",
+        "matters": "193",
+        "update": "2020-09-01 19:20:53.986825"
     },
     {
         "people": "张千帆",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%8D%83%E5%B8%86",
         "vote": 1,
-        "hash": "f537ca34ea50a003e959a4aed4ca0fbf"
+        "hash": "f537ca34ea50a003e959a4aed4ca0fbf",
+        "keyword": "教授",
+        "google": "645000",
+        "twitter": "2490",
+        "ytb": "3810",
+        "reddit": "35",
+        "matters": "39",
+        "update": "2020-09-01 19:21:16.241012"
     },
     {
         "people": "蔡霞",
         "wiki": "https://zh.wikipedia.org/wiki/%E8%94%A1%E9%9C%9E",
         "vote": 1,
-        "hash": "87e64a8c405f73e6e1bfe081273f03db"
+        "hash": "87e64a8c405f73e6e1bfe081273f03db",
+        "keyword": "教授",
+        "google": "12000000",
+        "twitter": "11200",
+        "ytb": "903000",
+        "reddit": "3160",
+        "matters": "65",
+        "update": "2020-09-01 19:21:39.359499"
     },
     {
         "people": "郑也夫",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%83%91%E4%B9%9F%E5%A4%AB",
         "vote": 1,
-        "hash": "444d578e21c8b63a68a9bbec6ee368e8"
+        "hash": "444d578e21c8b63a68a9bbec6ee368e8",
+        "keyword": "教授",
+        "google": "8820000",
+        "twitter": "1480",
+        "ytb": "3910",
+        "reddit": "30",
+        "matters": "11",
+        "update": "2020-09-01 19:22:14.969783"
     }
 ]
