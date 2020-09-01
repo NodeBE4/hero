@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", function(event){
         if (key == 'people'){
   	    td1.innerHTML = `<a href="{{ site.baseurl }}/${item[key]}">${item[key]}</a>`;
   	  }else{
-  	  	// td1.innerText = item[key].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") || 0
-        td1.innerText = item[key] || 0
+  	  	td1.innerText = item[key].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") || 0
+        // td1.innerText = item[key] || 0
   	  }
         tr.appendChild(td1);
       });
