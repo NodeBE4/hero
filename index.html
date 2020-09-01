@@ -71,20 +71,20 @@ document.addEventListener("DOMContentLoaded", function(event){
 		tr0.appendChild(th)
 	});
 
-    var lis = herolist.map(item => {
-      let tr = document.createElement('tr');
-      tbody.appendChild(tr)
-      thead_keys.map(key => {
-	      let td1 = document.createElement('td');
-	      if (key == 'people'){
-		    td1.innerHTML = `<a href="{{ site.baseurl }}/${item[key]}">${item[key]}</a>`;
-		  }else{
-		  	td1.innerText = item[key].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") || 0
-		  }
-	      tr.appendChild(td1);
-      });
-
+  var lis = herolist.map(item => {
+    let tr = document.createElement('tr');
+    tbody.appendChild(tr)
+    thead_keys.map(key => {
+      let td1 = document.createElement('td');
+      if (key == 'people'){
+	    td1.innerHTML = `<a href="{{ site.baseurl }}/${item[key]}">${item[key]}</a>`;
+	  }else{
+	  	td1.innerText = item[key].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") || 0
+	  }
+      tr.appendChild(td1);
     });
+  });
+  
 	var tr2 = document.createElement('tr');
 	tfoot.appendChild(tr2);
 	thead_vals.map(item => {
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 	});
 	$('#example').DataTable();
   })
-  console.log(table)
+  // console.log(table)
 });
 
 </script>
