@@ -110,5 +110,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E4%B8%96%E9%8B%92",
         "vote": 1,
         "hash": "d76bc36a6acf4c39950d84aa70103ca9"
+    },
+    {
+        "people": "何清涟",
+        "keyword": "作家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%B8%85%E6%B6%9F",
+        "vote": 1,
+        "hash": "377f3705e4fa9aede89cd33cbc38d881"
     }
 ]
