@@ -22,7 +22,7 @@ avatar:  # /images/apple-touch-icon.png #
 navigation:
   - name: 觀點2
     url: https://nodebe4.github.io/oped2/
-  - name: 來源
+  - name: 名字
     url: /categories
   - name: 外媒
     url: https://nodebe4.github.io/waimei/
