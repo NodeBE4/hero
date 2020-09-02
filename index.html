@@ -20,17 +20,30 @@ layout: default
 
 </table>
 
-
-<h4>说明</h4>
-<div id="explain">
-<p>本页由js动态生成，目前僅用於功能演示。更多说明见<a href="https://github.com/NodeBE4/hero/">Github</a></p>
-<p>人物列表存放於<a href="https://nodebe4.github.io/hero/index.json">https://nodebe4.github.io/hero/index.json</a></p>
-<p>點擊人物列表中的名字查看由机器人自动生成的詳細介紹与近期相關新聞報道，感谢<a href="https://zh.wikipedia.org/">Wikipedia</a>和<a href="https://www.google.com">Google</a>。</p>
-<p>關於本項目的規劃目標以及更多討論見這裏<a href="https://2047.name/t/7158">https://2047.name/t/7158</a>。項目最終希望實現匿名互動功能，能對英雄點贊，甚至能留言評論，需要有人幫忙寫API，API計劃部署到<a href="https://vercel.com">vercel</a>(參考<a href="https://github.com/duty-machine/duty-machine/">duty-machine項目</a>), 歡迎大家幫忙寫api網頁前端js, css.</p>
-<p>旧版demo在<a href="{{ site.baseurl }}/demo">这里</a></p>
+<div class="row">
+  <div class="col-12 col-md-6">
+    <h4>请在此处键入你心中的英雄</h4>
+    <form action="https://hero-form.vercel.app/api/submit" method="post">
+      <div class="form-group">
+          <input name="name" type="text" placeholder="全名 如:李文亮" style="display:table-cell; width:100%; max-width: 600px;">
+          <input name="keyword" type="text" placeholder="职业、案子 区别同姓名者 如:医生" style="display:table-cell; width:100%; max-width: 600px;">
+          <input name="url" type="url" placeholder="维基百科链接 https://zh.wikipedia.org/..." style="display:table-cell; width:100%; max-width: 600px;"><br>
+        <textarea name="message" style="width: 100%; max-width: 600px; height: 100px;" placeholder="随便说点什么，不影响机器人工作..."></textarea>
+        <div><input type="submit" value="提交"/></div>
+      </div>
+    </form>
+  </div>
+  <div class="col-12 col-md-6">
+    <h4>说明</h4>
+    <div id="explain">
+      <p>本页由js动态生成，目前僅用於功能演示。更多说明见<a href="https://github.com/NodeBE4/hero/">Github</a></p>
+      <p>人物列表存放於<a href="https://nodebe4.github.io/hero/index.json">https://nodebe4.github.io/hero/index.json</a></p>
+      <p>點擊人物列表中的名字查看由机器人自动生成的詳細介紹与近期相關新聞報道，感谢<a href="https://zh.wikipedia.org/">Wikipedia</a>和<a href="https://www.google.com">Google</a>。</p>
+      <p>關於本項目的規劃目標以及更多討論見這裏<a href="https://2047.name/t/7158">https://2047.name/t/7158</a>。項目最終希望實現匿名互動功能，能對英雄點贊，甚至能留言評論，需要有人幫忙寫API，API計劃部署到<a href="https://vercel.com">vercel</a>(參考<a href="https://github.com/duty-machine/duty-machine/">duty-machine項目</a>), 歡迎大家幫忙寫api網頁前端js, css.</p>
+      <p>旧版demo在<a href="{{ site.baseurl }}/demo">这里</a></p>
+    </div>
+  </div>
 </div>
-
-
 {% include simple-search.html %}
 
 <script type="text/javascript" >
@@ -42,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   var url = "{{ site.baseurl }}/index.json";
   var id = "example";
   const thead_format = {
+    'vote': '赞',
   	'people': '姓名',
   	'keyword': '区别词',
   	'google': 'Google',
@@ -49,7 +63,6 @@ document.addEventListener("DOMContentLoaded", function(event){
   	'ytb': 'YouTube',
   	'reddit': 'Reddit',
   	'matters': 'Matters',
-  	'vote': '赞'
   }
   $.getJSON(url, function(json) {
     herolist = json;
