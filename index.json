@@ -95,111 +95,202 @@
         "keyword": "律师",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%B5%A6%E5%BF%97%E5%BC%BA",
         "vote": 1,
-        "hash": "7b407883485e8f7167146c9890fabeb9"
+        "hash": "7b407883485e8f7167146c9890fabeb9",
+        "google": "207000",
+        "twitter": "14000",
+        "ytb": "11500",
+        "reddit": "43",
+        "matters": "27",
+        "update": "2020-09-02 20:12:24.727844"
     },
     {
         "people": "王宇",
         "keyword": "律师",
         "wiki": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E5%BE%8B%E5%B8%AB)",
         "vote": 1,
-        "hash": "b8659ec57b915d52245d055e3054fafc"
+        "hash": "b8659ec57b915d52245d055e3054fafc",
+        "google": "24800000",
+        "twitter": "15200",
+        "ytb": "16000",
+        "reddit": "41",
+        "matters": "13",
+        "update": "2020-09-02 20:12:42.359304"
     },
     {
         "people": "周世锋",
         "keyword": "律师",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E4%B8%96%E9%8B%92",
         "vote": 1,
-        "hash": "d76bc36a6acf4c39950d84aa70103ca9"
+        "hash": "d76bc36a6acf4c39950d84aa70103ca9",
+        "google": "94700",
+        "twitter": "2380",
+        "ytb": "408"
     },
     {
         "people": "何清涟",
         "keyword": "作家",
         "wiki": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%B8%85%E6%B6%9F",
         "vote": 2,
-        "hash": "377f3705e4fa9aede89cd33cbc38d881"
+        "hash": "377f3705e4fa9aede89cd33cbc38d881",
+        "google": "210000",
+        "twitter": "12500",
+        "ytb": "8860",
+        "reddit": "243",
+        "matters": "128",
+        "update": "2020-09-02 20:13:33.158079"
     },
     {
         "people": "许志永",
         "keyword": "公盟",
         "wiki": "https://zh.wikipedia.org/wiki/%E8%AE%B8%E5%BF%97%E6%B0%B8",
         "vote": 2,
-        "hash": "95fc5b0fbcdddf86cb92873d4029a339"
+        "hash": "95fc5b0fbcdddf86cb92873d4029a339",
+        "google": "71600",
+        "twitter": "20200",
+        "ytb": "11900",
+        "reddit": "5840",
+        "matters": "178",
+        "update": "2020-09-02 20:13:52.390522"
     },
     {
         "people": "陈光诚",
         "keyword": "维权",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%85%89%E8%AF%9A",
         "vote": 1,
-        "hash": "0fd871e2b9a7d677127ba78b04f0f803"
+        "hash": "0fd871e2b9a7d677127ba78b04f0f803",
+        "google": "1420000",
+        "twitter": "44000",
+        "ytb": "51500",
+        "reddit": "73",
+        "matters": "19",
+        "update": "2020-09-02 20:14:11.521735"
     },
     {
         "people": "程晓农",
         "keyword": "博士",
         "wiki": "https://zh.wikipedia.org/wiki/%E7%A8%8B%E6%99%93%E5%86%9C",
         "vote": 1,
-        "hash": "29ce117ccec07423bac038835884f4ce"
+        "hash": "29ce117ccec07423bac038835884f4ce",
+        "google": "118000",
+        "twitter": "7550",
+        "ytb": "99900",
+        "reddit": "195",
+        "matters": "39",
+        "update": "2020-09-02 20:14:31.528241"
     },
     {
         "people": "茅于轼",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E8%8C%85%E4%BA%8E%E8%BD%BC",
         "vote": 2,
-        "hash": "74b58fdfcb70f772010592b7d2987d2b"
+        "hash": "74b58fdfcb70f772010592b7d2987d2b",
+        "google": "2860000",
+        "twitter": "3990",
+        "ytb": "7080",
+        "reddit": "71",
+        "matters": "37",
+        "update": "2020-09-02 20:14:51.898561"
     },
     {
         "people": "向松祚",
         "keyword": "教授",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%90%91%E6%9D%BE%E7%A5%9A",
         "vote": 1,
-        "hash": "9f720eb53fa323c0265be3e658980877"
+        "hash": "9f720eb53fa323c0265be3e658980877",
+        "google": "6240000",
+        "twitter": "1480",
+        "ytb": "18300",
+        "reddit": "47",
+        "matters": "59",
+        "update": "2020-09-02 20:15:11.050247"
     },
     {
         "people": "樊纲",
         "keyword": "教授",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%A8%8A%E7%BA%B2",
         "vote": 2,
-        "hash": "183afe3ddc2ae5c57f2e3160e6e9662f"
+        "hash": "183afe3ddc2ae5c57f2e3160e6e9662f",
+        "google": "521000",
+        "twitter": "187",
+        "ytb": "1610",
+        "reddit": "17",
+        "matters": "4",
+        "update": "2020-09-02 20:15:31.006618"
     },
     {
         "people": "杜宪",
         "keyword": "新闻联播",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%9C%E5%AE%AA",
         "vote": 1,
-        "hash": "49d1419d45fc463e333b9e83916ef7d4"
+        "hash": "49d1419d45fc463e333b9e83916ef7d4",
+        "google": "420000",
+        "twitter": "822",
+        "ytb": "550",
+        "reddit": "3"
     },
     {
         "people": "坦克人",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA",
         "vote": 2,
-        "hash": "1f1beba105f3a4fcc082c950c844670f"
+        "hash": "1f1beba105f3a4fcc082c950c844670f",
+        "google": "65100000",
+        "twitter": "63700",
+        "ytb": "296000",
+        "reddit": "5700",
+        "matters": "507",
+        "update": "2020-09-02 20:16:33.931910"
     },
     {
         "people": "黎智英",
         "keyword": "苹果日报",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%BB%8E%E6%99%BA%E8%8B%B1",
         "vote": 1,
-        "hash": "d784c17f999228db8e7c4720df4fed53"
+        "hash": "d784c17f999228db8e7c4720df4fed53",
+        "google": "7650000",
+        "twitter": "33900",
+        "ytb": "1560000",
+        "reddit": "5060",
+        "matters": "201",
+        "update": "2020-09-02 20:16:53.820602"
     },
     {
         "people": "周孝正",
         "keyword": "教授",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%AD%9D%E6%AD%A3",
         "vote": 1,
-        "hash": "f53d18760c88aef8571e3e0d1123265c"
+        "hash": "f53d18760c88aef8571e3e0d1123265c",
+        "google": "261000",
+        "twitter": "4610",
+        "ytb": "66100",
+        "reddit": "50",
+        "matters": "18",
+        "update": "2020-09-02 20:17:14.322254"
     },
     {
         "people": "梁启智",
         "keyword": "博士",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%A2%81%E5%95%9F%E6%99%BA",
         "vote": 1,
-        "hash": "11de6709d512c74a8d76ff4f60ad9776"
+        "hash": "11de6709d512c74a8d76ff4f60ad9776",
+        "google": "41500",
+        "twitter": "1550",
+        "ytb": "445",
+        "reddit": "36",
+        "matters": "3840",
+        "update": "2020-09-02 20:17:34.719829"
     },
     {
         "people": "任志強",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%BF%97%E5%BC%BA",
         "vote": 1,
-        "hash": "4fa986129bd420d8045c3ce2dd5ca14b"
+        "hash": "4fa986129bd420d8045c3ce2dd5ca14b",
+        "google": "3330000",
+        "twitter": "19400",
+        "ytb": "73500",
+        "reddit": "1780",
+        "matters": "304",
+        "update": "2020-09-02 20:17:56.147625"
     }
 ]
