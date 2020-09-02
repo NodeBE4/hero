@@ -19,6 +19,17 @@ async function perform() {
   let rawdata = fs.readFileSync('./index.json', {encoding:'utf8', flag:'r'})
   let heroes = JSON.parse(rawdata)
   // console.log(heroes)
+
+  heroes.map(item =>{
+    let votefile = `_data/votes/vote_${item.hash}`;
+    if (fs.existsSync(votefile)) {
+      text = fs.readFileSync(votefile)
+      item.vote = parseInt(text)
+    }
+  })
+  let content = JSON.stringify(heroes, undefined, 4)
+  fs.writeFileSync(`./index.json`, content)
+  
   await loadRefSites()
 
   await Promise.all(heroes.map(async (item) => {
