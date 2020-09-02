@@ -80,7 +80,7 @@ async function performTasks() {
               email: 'you@example.com'
               }
 
-              let prTitle = `添加新人物-${people}-${wiki}`
+              let prTitle = `添加新人物-${people}`
 
               let intro = await loadWikipedia(newhero.wiki, "mw-content-text")
               let page = generateArticle(newhero, intro)
