@@ -73,6 +73,13 @@ async function performTasks() {
                 ...newhero
               });
               console.log(json);
+              json.map(item =>{
+                let votefile = `_data/votes/vote_${item.hash}`;
+                if (fs.existsSync(votefile)) {
+                  text = fs.readFileSync(votefile)
+                  item.vote = parseInt(text)
+                }
+              })
               let content = JSON.stringify(json, undefined, 4);
 
               let committer = {
