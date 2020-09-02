@@ -22,7 +22,11 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - run: |
+    - name: handle issues
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPOSITORY: ${{ secrets.REPOSITORY }}
+      run: |
         npm install
         node action.js
         git config --local user.email "you@example.com"
@@ -32,3 +36,4 @@ jobs:
         git commit -m 'add new hero'
         git pull
         git push origin master
+
