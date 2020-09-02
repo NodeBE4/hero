@@ -96,5 +96,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%B5%A6%E5%BF%97%E5%BC%BA",
         "vote": 1,
         "hash": "7b407883485e8f7167146c9890fabeb9"
+    },
+    {
+        "people": "王宇",
+        "keyword": "律师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E5%BE%8B%E5%B8%AB)",
+        "vote": 1,
+        "hash": "b8659ec57b915d52245d055e3054fafc"
     }
 ]
