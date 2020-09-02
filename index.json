@@ -159,5 +159,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%A8%8A%E7%BA%B2",
         "vote": 1,
         "hash": "183afe3ddc2ae5c57f2e3160e6e9662f"
+    },
+    {
+        "people": "杜宪",
+        "keyword": "新闻联播",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%9C%E5%AE%AA",
+        "vote": 1,
+        "hash": "49d1419d45fc463e333b9e83916ef7d4"
     }
 ]
