@@ -194,5 +194,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%A2%81%E5%95%9F%E6%99%BA",
         "vote": 1,
         "hash": "11de6709d512c74a8d76ff4f60ad9776"
+    },
+    {
+        "people": "任志強",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%BF%97%E5%BC%BA",
+        "vote": 1,
+        "hash": "4fa986129bd420d8045c3ce2dd5ca14b"
     }
 ]
