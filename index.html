@@ -17,6 +17,8 @@ layout: default
 <div class="row">
   <div class="col-12 col-md-6">
     <h4>请在此处键入你心中的英雄</h4>
+    <span style="color: #3498DB;width:100%; font-size:14px">HeroBot會搞定剩下的一切...</span>
+    <p style="color: #566573;font-size: 12px;">提示：提交或投票成功或需approve批准no script弹出的警告。</p>
     <form id="add-hero-form" action="https://hero-form.vercel.app/api/submit" method="post">
       <div class="form-group">
           <input name="name" type="text" placeholder="姓名 如:李文亮" style="display:table-cell; width:100%; max-width: 600px;">
@@ -27,14 +29,12 @@ layout: default
       </div>
     </form>
     <div>
-      <p style="color: #566573;font-size: 12px;">提示：提交或投票成功需要approve批准no script弹出的警告。</p>
-      <p style="color: #3498DB;">你只需填写这个表格，剩下的一切交给hero bot</p>
       <p style="color: #803030;">在此<i>提交新人物</i>或<i>点赞</i>无需注册或登录，本站亦无法获得你的IP地址或浏览器指纹等隐私信息。</p>
       <p style="font-size: 12px;">API开放<a href="https://github.com/NodeBE4/hero-form">源代码</a>，且实际部署的代码经第三方API托管平台<a href="https://vercel.com">vercel</a>验证(见最新<a href="https://github.com/NodeBE4/hero-form/commits/master">commit</a>下的vercel bot留言).</p>
     </div>
   </div>
   <div class="col-12 col-md-6">
-    <h4>Bot说</h4>
+    <h4>HeroBot说</h4>
     <div id="bot-message" class="overflow-auto">
       <p style="color: #3498DB;"><i>"赞不会立即生效，每小时或創建新人物時更新一次"</i></p>      
       <p style="color: #3498DB;"><i>"头像会有的"</i></p>      
@@ -45,7 +45,7 @@ layout: default
       <p><i style="color: blue">英雄榜v1.0发布!</i> 数据说明见<a href="https://github.com/NodeBE4/hero/">README</a></p>
       <p>人物列表存放於<a href="https://nodebe4.github.io/hero/index.json">index.json</a></p>
       <p>點擊人物列表中的名字查看由机器人自动生成的詳細介紹与近期相關新聞報道，感谢<a href="https://zh.wikipedia.org/">Wikipedia</a>和<a href="https://www.google.com">Google</a>。</p>
-      <p>如何參與：參考本項目的相關<a href="https://2047.name/t/7158">討論</a>，目標是匿名互動，能點贊、評論，歡迎有才華的您貢獻您的想法、代碼、或藝術設計。<i style="color: #FF445D">如果你是網站站長，可以host本站的鏡像，具體方法即將出爐...</i></p>
+      <p><b>如何參與</b>：參考本項目的相關<a href="https://2047.name/t/7158">討論</a>，目標是匿名互動，能點贊、評論，歡迎有才華的您貢獻您的想法、代碼、或藝術設計。<i style="color: #FF445D">如果你是網站站長，可以host本站的鏡像，具體方法即將出爐...</i></p>
       <p>旧版demo在<a href="{{ site.baseurl }}/demo">这里</a></p>
     </div>
   </div>
