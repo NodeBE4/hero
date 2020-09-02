@@ -16,7 +16,7 @@ layout: default
 </div>
 
 <h1>英雄榜</h1>
-<table id="example" class="table table-striped table-bordered" data-toggle="table" data-sort-name="Google" data-sort-order="desc" style="width:100%;font-size:12px;">
+<table id="example" class="table table-striped table-bordered" style="width:100%;font-size:12px;">
 
 </table>
 
@@ -100,7 +100,9 @@ document.addEventListener("DOMContentLoaded", function(event){
   	var thead_keys = Object.keys(thead_format)
   	thead_vals.map(item => {
   		var th = document.createElement('th')
-      th.setAttribute("data-field", item);
+      // th.setAttribute("data-field", item);
+      // th.setAttribute("data-sort-name","vote")
+      // th.setAttribute("data-sort-order","descending")
   		th.innerText = item
   		tr0.appendChild(th)
   	});
