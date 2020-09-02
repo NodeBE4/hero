@@ -152,5 +152,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E5%90%91%E6%9D%BE%E7%A5%9A",
         "vote": 1,
         "hash": "9f720eb53fa323c0265be3e658980877"
+    },
+    {
+        "people": "樊纲",
+        "keyword": "教授",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%A8%8A%E7%BA%B2",
+        "vote": 1,
+        "hash": "183afe3ddc2ae5c57f2e3160e6e9662f"
     }
 ]
