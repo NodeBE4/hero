@@ -131,5 +131,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E9%99%88%E5%85%89%E8%AF%9A",
         "vote": 1,
         "hash": "0fd871e2b9a7d677127ba78b04f0f803"
+    },
+    {
+        "people": "程晓农",
+        "keyword": "博士",
+        "wiki": "https://zh.wikipedia.org/wiki/%E7%A8%8B%E6%99%93%E5%86%9C",
+        "vote": 1,
+        "hash": "29ce117ccec07423bac038835884f4ce"
     }
 ]
