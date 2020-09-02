@@ -173,5 +173,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA",
         "vote": 1,
         "hash": "1f1beba105f3a4fcc082c950c844670f"
+    },
+    {
+        "people": "黎智英",
+        "keyword": "苹果日报",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%BB%8E%E6%99%BA%E8%8B%B1",
+        "vote": 1,
+        "hash": "d784c17f999228db8e7c4720df4fed53"
     }
 ]
