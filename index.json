@@ -122,9 +122,9 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E4%B8%96%E9%8B%92",
         "vote": 1,
         "hash": "d76bc36a6acf4c39950d84aa70103ca9",
-        "google": "97000",
-        "twitter": "2370",
-        "ytb": "407"
+        "google": "92800",
+        "twitter": "2380",
+        "ytb": "408"
     },
     {
         "people": "何清涟",
@@ -223,7 +223,7 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%9C%E5%AE%AA",
         "vote": 1,
         "hash": "49d1419d45fc463e333b9e83916ef7d4",
-        "google": "420000",
+        "google": "878000",
         "twitter": "822",
         "ytb": "550",
         "reddit": "3"
@@ -298,6 +298,12 @@
         "keyword": "八九民运",
         "wiki": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%B9",
         "vote": 1,
-        "hash": "8644d67b4f02be3e27ed7aa21053baca"
+        "hash": "8644d67b4f02be3e27ed7aa21053baca",
+        "google": "3940000",
+        "twitter": "26000",
+        "ytb": "51900",
+        "reddit": "3380",
+        "matters": "107",
+        "update": "2020-09-02 22:36:05.430923"
     }
 ]
