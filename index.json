@@ -187,5 +187,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%AD%9D%E6%AD%A3",
         "vote": 1,
         "hash": "f53d18760c88aef8571e3e0d1123265c"
+    },
+    {
+        "people": "梁启智",
+        "keyword": "博士",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%A2%81%E5%95%9F%E6%99%BA",
+        "vote": 1,
+        "hash": "11de6709d512c74a8d76ff4f60ad9776"
     }
 ]
