@@ -26,21 +26,22 @@ layout: default
     <form action="https://hero-form.vercel.app/api/submit" method="post">
       <div class="form-group">
           <input name="name" type="text" placeholder="全名 如:李文亮" style="display:table-cell; width:100%; max-width: 600px;">
-          <input name="keyword" type="text" placeholder="职业、案子 区别同姓名者 如:医生" style="display:table-cell; width:100%; max-width: 600px;">
+          <input name="keyword" type="text" placeholder="最关键词 (职业、案子等用以区分重名者) 如:医生、端点星" style="display:table-cell; width:100%; max-width: 600px;">
           <input name="url" type="url" placeholder="维基百科链接 https://zh.wikipedia.org/..." style="display:table-cell; width:100%; max-width: 600px;"><br>
-        <textarea name="message" style="width: 100%; max-width: 600px; height: 100px;" placeholder="随便说点什么，不影响机器人工作..."></textarea>
+        <textarea name="message" style="width: 100%; max-width: 600px; height: 100px;" placeholder="随便说点什么，没什么用..."></textarea>
         <div><input type="submit" value="提交"/></div>
       </div>
     </form>
-    <div>在本站<i>提交新人物</i>或<i>点赞</i>不会被记录IP地址等隐私信息, API源代码在<a href="https://github.com/NodeBE4/hero-form">这里</a>， 实际部署的代码由API托管的第三方平台vercel.com验证（见最新的commit下的vercel bot留言）.</div>
+    <div><p style="color: #3498DB;">你只需填写这个表格，剩下的一切交给hero bot</p><p style="color: #803030;">在此<i>提交新人物</i>或<i>点赞</i>无需注册或登录，本站亦无法获得你的IP地址或浏览器指纹等隐私信息。</p>
+      <p>API开放<a href="https://github.com/NodeBE4/hero-form">源代码</a>，且实际部署的代码经第三方API托管平台<a href="https://vercel.com">vercel</a>验证(见最新<a href="https://github.com/NodeBE4/hero-form/commits/master">commit</a>下的vercel bot留言).</p></div>
   </div>
   <div class="col-12 col-md-6">
     <h4>说明</h4>
     <div id="explain">
       <p>本页由js动态生成，目前僅用於功能演示。更多说明见<a href="https://github.com/NodeBE4/hero/">Github</a></p>
-      <p>人物列表存放於<a href="https://nodebe4.github.io/hero/index.json">https://nodebe4.github.io/hero/index.json</a></p>
+      <p>人物列表存放於<a href="https://nodebe4.github.io/hero/index.json">index.json</a></p>
       <p>點擊人物列表中的名字查看由机器人自动生成的詳細介紹与近期相關新聞報道，感谢<a href="https://zh.wikipedia.org/">Wikipedia</a>和<a href="https://www.google.com">Google</a>。</p>
-      <p>關於本項目的規劃目標以及更多討論見這裏<a href="https://2047.name/t/7158">https://2047.name/t/7158</a>。項目最終希望實現匿名互動功能，能對英雄點贊，甚至能留言評論，需要有人幫忙寫API，API計劃部署到<a href="https://vercel.com">vercel</a>(參考<a href="https://github.com/duty-machine/duty-machine/">duty-machine項目</a>), 歡迎大家幫忙寫api網頁前端js, css.</p>
+      <p>關於本項目的規劃目標以及更多討論見這裏<a href="https://2047.name/t/7158">這裏</a>。項目最終希望實現匿名互動功能，能對英雄點贊，甚至能留言評論，需要有人幫忙寫API，API計劃部署到<a href="https://vercel.com">vercel</a>(參考<a href="https://github.com/duty-machine/duty-machine/">duty-machine項目</a>), 歡迎大家幫忙寫api網頁前端js, css.</p>
       <p>旧版demo在<a href="{{ site.baseurl }}/demo">这里</a></p>
     </div>
   </div>
