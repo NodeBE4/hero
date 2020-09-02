@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
 <script src="{{ site.baseurl }}/assets/js/hero.js"></script>
 
@@ -117,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     	  }else if(key=='vote'){
           let val = item[key] || 0
           td1.innerHTML += val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-          td1.innerHTML += `<a id="vote-${item.hash}" onclick="vote_hero('${item.hash}')" style="color:#2980B9">&#9650</a>`
+          td1.innerHTML += `<a id="vote-${item.hash}" onclick="vote_hero('${item.hash}')" style="color:#2980B9" class="fa">&#xf087;</a>`
           td1.id = "vote-cnt-"+item.hash
         }else{
           let val = item[key] || 0
