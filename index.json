@@ -117,5 +117,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%B8%85%E6%B6%9F",
         "vote": 1,
         "hash": "377f3705e4fa9aede89cd33cbc38d881"
+    },
+    {
+        "people": "许志永",
+        "keyword": "公盟",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%AE%B8%E5%BF%97%E6%B0%B8",
+        "vote": 1,
+        "hash": "95fc5b0fbcdddf86cb92873d4029a339"
     }
 ]
