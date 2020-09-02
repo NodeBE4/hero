@@ -70,5 +70,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%96%87%E4%BA%AE",
         "vote": 1,
         "hash": "6c1617bfa0abc2cbe2ba97b03ab0b2d2"
+    },
+    {
+        "people": "艾芬",
+        "keyword": "医生",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%89%BE%E8%8A%AC",
+        "vote": 1,
+        "hash": "917c95b82a8d4ad618858f6c5066c2d3"
     }
 ]
