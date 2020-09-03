@@ -709,5 +709,13 @@
         "vote": 1,
         "hash": "e3936c8ff2fbc643054db3b2032f568e",
         "photo": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2387281821294228"
+    },
+    {
+        "people": "梁天琦",
+        "keyword": "香港",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%A2%81%E5%A4%A9%E7%90%A6",
+        "vote": 1,
+        "hash": "2f9a0271c7dd0e46ff3398e8d24f4218",
+        "photo": "https://cdn.thestandnews.com/media/photos/cache/edward-20_3JMCy_1200x0.png"
     }
 ]
