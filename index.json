@@ -663,7 +663,14 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%89%E8%80%80",
         "vote": 1,
         "hash": "bb8512f58255ec2342561b67d7356d9a",
-        "photo": "http://www.xinhuanet.com/mil/2015-03/23/127609218_14270698049371n.jpg"
+        "photo": "http://www.xinhuanet.com/mil/2015-03/23/127609218_14270698049371n.jpg",
+        "google": "1800000",
+        "twitter": "7540",
+        "ytb": "80700",
+        "reddit": "2790",
+        "medium": "387",
+        "matters": "116",
+        "update": "2020-09-03 20:36:08.302657"
     },
     {
         "people": "李登輝",
@@ -671,7 +678,14 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%99%BB%E8%BC%9D",
         "vote": 1,
         "hash": "068310367f1fd17e20dc5def3989ba92",
-        "photo": "https://www.zaobao.com/sites/default/files/styles/article_large_full/public/images/202007/20200731/ZB_0731_CJ_doc7bo49kt3pg83kvapb4o_30202438_paecs.jpg?itok=tMWY8Qzt&c=5a857edf35cac18fe2e89f4ddd0ec859&timestamp=1596137402"
+        "photo": "https://www.zaobao.com/sites/default/files/styles/article_large_full/public/images/202007/20200731/ZB_0731_CJ_doc7bo49kt3pg83kvapb4o_30202438_paecs.jpg?itok=tMWY8Qzt&c=5a857edf35cac18fe2e89f4ddd0ec859&timestamp=1596137402",
+        "google": "16800000",
+        "twitter": "45000",
+        "ytb": "302000",
+        "reddit": "7360",
+        "medium": "974",
+        "matters": "241",
+        "update": "2020-09-03 20:36:31.056380"
     },
     {
         "people": "梁凌杰",
@@ -679,6 +693,13 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%A2%81%E5%87%8C%E6%9D%B0",
         "vote": 1,
         "hash": "daea9b2fb1ed82aadf173d5980e3b9dc",
-        "photo": "https://cdn.hk01.com/media/images/3847860/org/54f7ab9a55b90169147464a8a066c65b.png"
+        "photo": "https://cdn.hk01.com/media/images/3847860/org/54f7ab9a55b90169147464a8a066c65b.png",
+        "google": "150000",
+        "twitter": "2160",
+        "ytb": "21700",
+        "reddit": "394",
+        "medium": "119",
+        "matters": "62",
+        "update": "2020-09-03 20:36:55.617449"
     }
 ]
