@@ -20,7 +20,7 @@ layout: default
     <h4>请在此处键入你心中的英雄</h4>
     <span style="color: #3498DB;width:100%; font-size:14px">HeroBot會搞定剩下的一切...</span>
     <p style="color: #566573;font-size: 12px;">提示：提交或投票成功或需approve批准no script弹出的警告。</p>
-    <form id="add-hero-form" action="https://hero-form.vercel.app/api/submit" method="post">
+    <form id="add-hero-form" action="https://hero-form.vercel.app/api/submit" method="post" target="_blank">
       <div class="form-group">
           <input name="name" type="text" placeholder="姓名 如:李文亮、陈玫" style="display:table-cell; width:100%; max-width: 600px;">
           <input name="keyword" type="text" placeholder="最关键词 (以区分同名同姓者) 如:医生、端点星" style="display:table-cell; width:100%; max-width: 600px;">
@@ -53,7 +53,7 @@ layout: default
 {% include simple-search.html %}
 
 <div style="display:none">
- <form id="vote-form" action="https://hero-form.vercel.app/api/vote" method="post" onsubmit=";return false">
+ <form id="vote-form" action="https://hero-form.vercel.app/api/vote" method="post" onsubmit=";return false" target="_blank">
     <div class="form-group">
         <input id="input-hash" name="hash" type="text" style="display:table-cell; width:100%; max-width: 600px;">
       <div><input type="submit" value="提交"/></div>

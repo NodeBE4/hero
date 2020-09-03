@@ -17,6 +17,11 @@ const FILE = '100644'; // commit mode
 const encoding = 'utf-8';
 const ref = 'heads/master';
 
+let committer = {
+  name: 'NodeBE4',
+  email: 'you@example.com'
+}
+
 async function performTasks() {
   let { data } = await octokit.issues.listForRepo({
     owner: OWNER,
@@ -47,11 +52,30 @@ async function performTasks() {
                 return item.wiki == wiki ;
             }); 
             if (thisperson.length > 0){
+              let votefile = `_data/votes/vote_${thisperson[0].hash}`
+              let count = 2
+              if (fs.existsSync(votefile)) {
+                text = fs.readFileSync(votefile)
+                count = parseInt(text)+1
+              }
+              thisperson[0].vote = count
+              fs.writeFileSync(votefile, count.toString())
+
+              json.map(item =>{
+                let votefile = `_data/votes/vote_${item.hash}`;
+                if (fs.existsSync(votefile)) {
+                  text = fs.readFileSync(votefile)
+                  item.vote = parseInt(text)
+                }
+              })
+              let content = JSON.stringify(json, undefined, 4);
+              fs.writeFileSync(`./index.json`, content)
+
               await octokit.issues.createComment({
                 owner: OWNER,
                 repo: REPO,
                 issue_number: issue.number,
-                body: `${thisperson[0].people} 已经榜上有名了，试试到网页上的search他/她的名字`
+                body: `${thisperson[0].people} 已经榜上有名了，你对TA赞了一次，试试在网页上的搜索TA的名字`
               })
               await octokit.issues.update({
                 owner: OWNER,
@@ -85,11 +109,6 @@ async function performTasks() {
                 }
               })
               let content = JSON.stringify(json, undefined, 4);
-
-              let committer = {
-              name: 'NodeBE4',
-              email: 'you@example.com'
-              }
 
               let prTitle = `添加新人物-${people}`
 
