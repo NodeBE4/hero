@@ -77,7 +77,7 @@ function loadOped(hero){
   const ul = html.querySelector("ul")
   const h3 = html.querySelector("h3")
   html.id = "open-opinion"
-  h3.innerHTML = "过往言论"
+  h3.innerHTML = "相关言论"
   let relatednews = oped.map(item => {
     if (item['title'].includes(hero) || item['desc'].includes(hero)){
       var baseurl = "https://nodebe4.github.io"
