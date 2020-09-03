@@ -58,7 +58,7 @@ async function performTasks() {
                 repo: REPO,
                 issue_number: issue.number,
                 state: 'closed',
-                title: articleData.title,
+                title: issue.title,
                 labels: ['duplicated']
               })
             }else{
