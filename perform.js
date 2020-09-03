@@ -20,7 +20,7 @@ async function perform() {
   let heroes = JSON.parse(rawdata)
   // console.log(heroes)
 
-  await Promise.all(heroes.map(item =>{
+  await Promise.all(heroes.map(async (item) =>{
     let votefile = `_data/votes/vote_${item.hash}`;
     if (fs.existsSync(votefile)) {
       text = fs.readFileSync(votefile)
