@@ -733,5 +733,13 @@
         "vote": 1,
         "hash": "f84b8c276266368ec5f84c3d4956fcbd",
         "photo": "https://m1.aboluowang.com/uploadfile/2020/0809/20200809111542823.jpg?w=640"
+    },
+    {
+        "people": "陳云根",
+        "keyword": "國師",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%91%E6%A0%B9",
+        "vote": 1,
+        "hash": "d0ebdd75ba3cf35a60a12890847da1df",
+        "photo": "https://cdn.hk01.com/di/media/images/4762632/org/02c0eb48537ff437ed8b25afd62b06c8.jpg/IGb6w-zE6igNV7k2-yFyc0d8C5LQrpjvI1nyoCNZ8qA"
     }
 ]
