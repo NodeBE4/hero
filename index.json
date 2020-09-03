@@ -458,5 +458,13 @@
         "vote": 1,
         "hash": "6ddf65e2ccd762eb23fe25a5cadd5bd1",
         "photo": "https://pic4.zhimg.com/v2-41b9f83e302f3784806dde1bd5e7d9e5_1440w.jpg"
+    },
+    {
+        "people": "司徒華",
+        "keyword": "香港",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%8F%B8%E5%BE%92%E8%8F%AF",
+        "vote": 1,
+        "hash": "f6181ff7fdd582c5b5f6090be39769f4",
+        "photo": "https://m.dw.com/image/6380505_101.jpg"
     }
 ]
