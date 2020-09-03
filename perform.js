@@ -29,6 +29,11 @@ async function perform() {
     if (('photo' in item)==false || (typeof(item.photo)!=='string')){
       item.photo = await googlePhoto(item.people + item.keyword + ' 简介')
       new Promise(resolve => setTimeout(resolve, 2000))
+    }else if (('imgur' in item)==false) {
+      // https://www.npmjs.com/package/imgur
+      // upload photo to imgur
+      // item.imgur = 'imgur image id'
+      console.log(item.photo)
     }
   }))
   let content = JSON.stringify(heroes, undefined, 4)
