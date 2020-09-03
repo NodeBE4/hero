@@ -4,12 +4,23 @@
 1. [x] 点赞功能
 2. [x] 添加新人物功能
 3. [x] 首页按赞数排序
+4. [x] 供友站鏡像的頁面和方法
 4. [ ] 网页艺术设计 css样式设计 
 5. [ ] 匿名讨论区
 6. [ ] 基于repo的后台管理功能
 
-## 讨论组
-https://2047.name/t/7158
+## 镜像本英雄榜的方法
+将[mirror.html](/mirror.html)文件中的html代码复制或嵌入到您的网页，需要删除顶部的以下内容
+```yaml
+---
+layout: default
+---
+```
+
+
+## 相關讨论组
+- https://2047.name/t/7158
+- 本專案[issue](https://github.com/NodeBE4/hero/issues/1)
 
 ## 榜单排名数据说明
 
