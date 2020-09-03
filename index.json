@@ -741,5 +741,13 @@
         "vote": 1,
         "hash": "d0ebdd75ba3cf35a60a12890847da1df",
         "photo": "https://cdn.hk01.com/di/media/images/4762632/org/02c0eb48537ff437ed8b25afd62b06c8.jpg/IGb6w-zE6igNV7k2-yFyc0d8C5LQrpjvI1nyoCNZ8qA"
+    },
+    {
+        "people": "习近平",
+        "keyword": "总加速师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%B9%A0%E8%BF%91%E5%B9%B3",
+        "vote": 1,
+        "hash": "4c48c98b1fad5c0340843fad7e50ef6d",
+        "photo": "https://ozvoice.org/wp-content/uploads/2020/08/a-361.png"
     }
 ]
