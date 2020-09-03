@@ -105,7 +105,9 @@ document.addEventListener("DOMContentLoaded", function(event){
         let td1 = document.createElement('td');
         if (key == 'people'){
           if (item['photo']){
-            td1.innerHTML += `<a class="thumb-post"><img src="${item['photo']}" style="width:50px" ></img></a>`
+            td1.innerHTML += `<a class="thumb-post"><img src="${item['photo']}" ></img></a>`
+          }else{
+            td1.innerHTML += `<a class="thumb-post"><img src="{{ site.baseurl }}/assets/images/avatar.png" ></img></a>`            
           }
     	    td1.innerHTML += `<a href="{{ site.baseurl }}/${item[key]}"><b>${item[key]}</b></a>`;
           if (item['keyword']!==""){
