@@ -26,9 +26,8 @@ async function perform() {
       text = fs.readFileSync(votefile)
       item.vote = parseInt(text)
     }
-    if (('photo' in item)==false){
-      let photourl = googlePhoto(item.people + item.keyword)
-      item.photo = photourl
+    if (('photo' in item)==false || (typeof(item.photo)!=='string')){
+      item.photo = googlePhoto(item.people + item.keyword)
       new Promise(resolve => setTimeout(resolve, 2000))
     }
   }))
