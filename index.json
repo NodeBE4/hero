@@ -582,5 +582,13 @@
         "vote": 1,
         "hash": "0f0380162e0c767a5bf7a230c4a7ba38",
         "photo": "http://n.sinaimg.cn/front/467/w1280h787/20190118/94uc-hrvcwnk4325925.jpg"
+    },
+    {
+        "people": "黃之鋒",
+        "keyword": "香港",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%B9%8B%E9%8B%92",
+        "vote": 1,
+        "hash": "5094687e54ee247ba7656acd027c4f7d",
+        "photo": "https://cdn.media.worldjournal.com/wp-content/uploads/2019/11/201911020532198221_32537.jpg"
     }
 ]
