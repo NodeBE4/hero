@@ -410,5 +410,13 @@
         "vote": 1,
         "hash": "0f883c23e6d961780da57bdced4c654e",
         "photo": "https://www.ntdtv.com/assets/uploads/2019/02/20171019-Chen-Bazhou-Taipei-402-600x400.jpg"
+    },
+    {
+        "people": "魏京生",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%AD%8F%E4%BA%AC%E7%94%9F",
+        "vote": 1,
+        "hash": "a5612496dde59bff95d65f288f775dc1",
+        "photo": "https://s.rfi.fr/media/display/1412f912-1329-11ea-9ec5-005056a99247/w:1280/p:16x9/index_119.jpg"
     }
 ]
