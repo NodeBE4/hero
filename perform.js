@@ -20,18 +20,18 @@ async function perform() {
   let heroes = JSON.parse(rawdata)
   // console.log(heroes)
 
-  heroes.map(item =>{
+  await Promise.all(heroes.map(item =>{
     let votefile = `_data/votes/vote_${item.hash}`;
     if (fs.existsSync(votefile)) {
       text = fs.readFileSync(votefile)
       item.vote = parseInt(text)
     }
-    if !('photo' in item){
-      let photourl = await googlePhoto(item.people + item.keyword)
+    if (('photo' in item)==false){
+      let photourl = googlePhoto(item.people + item.keyword)
       item.photo = photourl
       new Promise(resolve => setTimeout(resolve, 2000))
     }
-  })
+  }))
   let content = JSON.stringify(heroes, undefined, 4)
   fs.writeFileSync(`./index.json`, content)
   
