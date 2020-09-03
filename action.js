@@ -1,5 +1,5 @@
 let { Octokit } = require('@octokit/rest')
-let { loadWikipedia, generateArticle } = require('./lib')
+let { loadWikipedia, generateArticle, googlePhoto } = require('./lib')
 const crypto = require('crypto');
 let fs = require('fs')
 
@@ -62,12 +62,16 @@ async function performTasks() {
                 labels: ['duplicated']
               })
             }else{
+              let photourl = await googlePhoto(people + keyword)
+              new Promise(resolve => setTimeout(resolve, 2000))
+
               let newhero = {
                 people: people,
                 keyword: keyword,
                 wiki: wiki,
                 vote: 1,
-                hash: hash
+                hash: hash,
+                photo: photourl
               }
               json.push({
                 ...newhero

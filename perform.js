@@ -6,7 +6,7 @@ const https = require('https')
 const fetch = require('node-fetch')
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-let { loadRefSites, loadWikipedia, generateArticle } = require('./lib')
+let { loadRefSites, loadWikipedia, generateArticle, googlePhoto } = require('./lib')
 let URL = urlMod.URL
 
 let db_news_url = 'https://nodebe4.github.io/waimei/search.json'
@@ -25,6 +25,11 @@ async function perform() {
     if (fs.existsSync(votefile)) {
       text = fs.readFileSync(votefile)
       item.vote = parseInt(text)
+    }
+    if !('photo' in item){
+      let photourl = await googlePhoto(item.people + item.keyword)
+      item.photo = photourl
+      new Promise(resolve => setTimeout(resolve, 2000))
     }
   })
   let content = JSON.stringify(heroes, undefined, 4)

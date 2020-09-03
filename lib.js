@@ -137,5 +137,25 @@ async function loadRefSites(){
     });
 }
 
-module.exports = { loadRefSites, loadWikipedia, generateArticle };
+let Scraper = require('images-scraper');
+
+var options = {
+  userAgent: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36', // the user agent
+  puppeteer: { headless: true }, // puppeteer options, for example, { headless: false }
+  tbs: {  // every possible tbs search option, some examples and more info: http://jwebnet.net/advancedgooglesearch.html
+    isz: 'i' // options: l(arge), m(edium), i(cons), etc.
+    itp: 'face' // options: clipart, face, lineart, news, photo
+    ic:   // options: color, gray, trans
+    sur:  // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
+  }, 
+};
+const google = new Scraper(options);
+
+async function googlePhoto(query){
+  const results = await google.scrape(query, 10);
+  console.log('results', results[0]);
+  return results[0].url 
+}
+
+module.exports = { loadRefSites, loadWikipedia, generateArticle, googlePhoto };
 

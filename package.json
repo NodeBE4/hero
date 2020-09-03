@@ -23,6 +23,7 @@
     "fs": "0.0.1-security",
     "html-element": "^2.3.1",
     "https": "^1.0.0",
+    "images-scraper": "^5.0.7",
     "jsdom": "^16.4.0",
     "node-fetch": "^2.6.0",
     "querystring": "^0.2.0",
