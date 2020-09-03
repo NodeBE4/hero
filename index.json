@@ -574,5 +574,13 @@
         "vote": 1,
         "hash": "118181e34ed3ac237aa057299a48f6ec",
         "photo": "http://i3.sinaimg.cn/ent/cr/2014/0909/3181253155.jpg"
+    },
+    {
+        "people": "高晓松",
+        "keyword": "音乐人",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%AB%98%E6%99%93%E6%9D%BE",
+        "vote": 1,
+        "hash": "0f0380162e0c767a5bf7a230c4a7ba38",
+        "photo": "http://n.sinaimg.cn/front/467/w1280h787/20190118/94uc-hrvcwnk4325925.jpg"
     }
 ]
