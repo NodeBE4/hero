@@ -418,5 +418,13 @@
         "vote": 1,
         "hash": "a5612496dde59bff95d65f288f775dc1",
         "photo": "https://s.rfi.fr/media/display/1412f912-1329-11ea-9ec5-005056a99247/w:1280/p:16x9/index_119.jpg"
+    },
+    {
+        "people": "高瑜",
+        "keyword": "记者",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%AB%98%E7%91%9C",
+        "vote": 1,
+        "hash": "3a9d856edb29edf55e42739afbed40dc",
+        "photo": "https://www.rfa.org/mandarin/yataibaodao/renquanfazhi/64-04292014102305.html/140429023914_cn_gao_yu__afp.jpg"
     }
 ]
