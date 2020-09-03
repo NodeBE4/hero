@@ -26,10 +26,10 @@ async function perform() {
       text = fs.readFileSync(votefile)
       item.vote = parseInt(text)
     }
-    if (('photo' in item)==false || (typeof(item.photo)!=='string')){
+    // if (('photo' in item)==false || (typeof(item.photo)!=='string')){
       item.photo = await googlePhoto(item.people + item.keyword)
       new Promise(resolve => setTimeout(resolve, 2000))
-    }
+    // }
   }))
   let content = JSON.stringify(heroes, undefined, 4)
   fs.writeFileSync(`./index.json`, content)
