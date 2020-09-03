@@ -144,9 +144,9 @@ var options = {
   puppeteer: { headless: true }, // puppeteer options, for example, { headless: false }
   tbs: {  // every possible tbs search option, some examples and more info: http://jwebnet.net/advancedgooglesearch.html
     isz: 'i', // options: l(arge), m(edium), i(cons), etc.
-    itp: 'face', // options: clipart, face, lineart, news, photo
-    ic: 'color', // options: color, gray, trans
-    sur: 'fmc' // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
+    itp: 'face' // options: clipart, face, lineart, news, photo
+    // ic: 'color', // options: color, gray, trans
+    // sur: 'fmc' // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
   }, 
 };
 const google = new Scraper(options);
