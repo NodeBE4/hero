@@ -394,5 +394,13 @@
         "vote": 1,
         "hash": "7f8a0145c813f35cad11995e61e6f88c",
         "photo": "https://uyghurpress.com/wp-content/uploads/2017/06/e6fa52f4-78ac-4ba9-b53c-5c45ad8c39b5-550x309.jpeg"
+    },
+    {
+        "people": "贺卫方",
+        "keyword": "教授",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%B4%BA%E5%8D%AB%E6%96%B9",
+        "vote": 1,
+        "hash": "9e106876fdb4374cf306e8450dc42772",
+        "photo": "https://www.rfa.org/mandarin/zhuanlan/huashengdunshouji/beizhuishadeshengyin/bm-02242020131104.html/8d3a536b65b9809650cf.jpg"
     }
 ]
