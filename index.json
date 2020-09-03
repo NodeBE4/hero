@@ -122,9 +122,12 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E4%B8%96%E9%8B%92",
         "vote": 1,
         "hash": "d76bc36a6acf4c39950d84aa70103ca9",
-        "google": "92500",
+        "google": "94000",
         "twitter": "2980",
-        "ytb": "548"
+        "ytb": "548",
+        "reddit": "0",
+        "matters": "7",
+        "update": "2020-09-03 01:32:09.151197"
     },
     {
         "people": "何清涟",
@@ -224,9 +227,11 @@
         "vote": 1,
         "hash": "49d1419d45fc463e333b9e83916ef7d4",
         "google": "464000",
-        "twitter": "825",
+        "twitter": "824",
         "ytb": "533",
-        "reddit": "3"
+        "reddit": "3",
+        "matters": "0",
+        "update": "2020-09-03 01:32:26.895948"
     },
     {
         "people": "坦克人",
