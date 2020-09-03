@@ -656,5 +656,13 @@
         "medium": "603",
         "matters": "163",
         "update": "2020-09-03 17:17:40.956531"
+    },
+    {
+        "people": "李光耀",
+        "keyword": "新加坡",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%89%E8%80%80",
+        "vote": 1,
+        "hash": "bb8512f58255ec2342561b67d7356d9a",
+        "photo": "http://www.xinhuanet.com/mil/2015-03/23/127609218_14270698049371n.jpg"
     }
 ]
