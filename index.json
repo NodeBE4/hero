@@ -273,7 +273,7 @@
         "people": "坦克人",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA",
-        "vote": 2,
+        "vote": 3,
         "hash": "1f1beba105f3a4fcc082c950c844670f",
         "google": "55600000",
         "twitter": "64500",
@@ -717,5 +717,13 @@
         "vote": 1,
         "hash": "2f9a0271c7dd0e46ff3398e8d24f4218",
         "photo": "https://cdn.thestandnews.com/media/photos/cache/edward-20_3JMCy_1200x0.png"
+    },
+    {
+        "people": "蕭若元",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%95%AD%E8%8B%A5%E5%85%83",
+        "vote": 1,
+        "hash": "38d2cc7f4c1d9271556115ebe8508906",
+        "photo": "http://bimg.hitttt.com/dd8_20160428/4692_522df2b19a9260cade2b9b5c8bebef79_N1364_018k__01.jpg"
     }
 ]
