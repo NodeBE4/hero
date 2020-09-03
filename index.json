@@ -474,5 +474,13 @@
         "vote": 1,
         "hash": "7a862bd56327fc254452071f4e76c6f2",
         "photo": "https://gdb.voanews.com/29F6BA32-A431-44FD-A7BE-A2E422C9BF65_w1200_r1.jpg"
+    },
+    {
+        "people": "何韵诗",
+        "keyword": "香港",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BD%95%E9%9F%BB%E8%A9%A9",
+        "vote": 1,
+        "hash": "f2c26d07cc5c506103cb2da27f466db8",
+        "photo": "https://gdb.voanews.com/02876EA0-E26F-4ABB-9FB2-4618AAEF358B_cx0_cy6_cw0_w408_r1_s.jpg"
     }
 ]
