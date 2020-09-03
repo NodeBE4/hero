@@ -143,10 +143,10 @@ var options = {
   userAgent: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36', // the user agent
   puppeteer: { headless: true }, // puppeteer options, for example, { headless: false }
   tbs: {  // every possible tbs search option, some examples and more info: http://jwebnet.net/advancedgooglesearch.html
-    isz: 'i' // options: l(arge), m(edium), i(cons), etc.
-    itp: 'face' // options: clipart, face, lineart, news, photo
-    ic:   // options: color, gray, trans
-    sur:  // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
+    isz: 'i', // options: l(arge), m(edium), i(cons), etc.
+    itp: 'face', // options: clipart, face, lineart, news, photo
+    ic: 'color', // options: color, gray, trans
+    sur: 'fmc' // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
   }, 
 };
 const google = new Scraper(options);
