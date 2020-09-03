@@ -27,7 +27,7 @@ async function perform() {
       item.vote = parseInt(text)
     }
     if (('photo' in item)==false || (typeof(item.photo)!=='string')){
-      item.photo = googlePhoto(item.people + item.keyword)
+      item.photo = await googlePhoto(item.people + item.keyword)
       new Promise(resolve => setTimeout(resolve, 2000))
     }
   }))
