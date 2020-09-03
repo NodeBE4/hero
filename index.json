@@ -566,5 +566,13 @@
         "medium": "1180",
         "matters": "74",
         "update": "2020-09-03 16:21:23.043125"
+    },
+    {
+        "people": "崔健",
+        "keyword": "歌手",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%B4%94%E5%81%A5",
+        "vote": 1,
+        "hash": "118181e34ed3ac237aa057299a48f6ec",
+        "photo": "http://i3.sinaimg.cn/ent/cr/2014/0909/3181253155.jpg"
     }
 ]
