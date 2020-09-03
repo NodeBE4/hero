@@ -442,5 +442,13 @@
         "vote": 1,
         "hash": "06307c6c77ec84bcf2dcffd81711c0e3",
         "photo": "https://www.chinesepen.org/wp-content/uploads/2018/04/%E6%9F%B4%E9%9D%99.jpg"
+    },
+    {
+        "people": "明居正",
+        "keyword": "教授",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%B1%85%E6%AD%A3",
+        "vote": 1,
+        "hash": "f68eaa1a9eac61a0e11226efc25de55a",
+        "photo": "https://i.epochtimes.com/assets/uploads/2005/08/508295712815-450x570.jpg"
     }
 ]
