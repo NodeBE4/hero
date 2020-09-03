@@ -590,5 +590,13 @@
         "vote": 1,
         "hash": "5094687e54ee247ba7656acd027c4f7d",
         "photo": "https://cdn.media.worldjournal.com/wp-content/uploads/2019/11/201911020532198221_32537.jpg"
+    },
+    {
+        "people": "冉云飞",
+        "keyword": "作家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%86%89%E4%BA%91%E9%A3%9E",
+        "vote": 1,
+        "hash": "73808f9088f98d52ba9256c2452bc2dd",
+        "photo": "https://s.rfi.fr/media/display/bf07f7de-0fb2-11ea-92d7-005056a99247/w:1280/p:1x1/800ranyunfei116856_20080621.jpg"
     }
 ]
