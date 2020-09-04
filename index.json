@@ -761,7 +761,9 @@
         "reddit": "17",
         "medium": "299",
         "matters": "55",
-        "update": "2020-09-03 21:15:28.044625"
+        "update": "2020-09-03 21:15:28.044625",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/LiAoAtFayuansi.JPG/131px-LiAoAtFayuansi.JPG",
+        "imgur": "https://i.imgur.com/Ck3f0tc.jpeg"
     },
     {
         "people": "梁天琦",
@@ -858,5 +860,70 @@
         "medium": "171",
         "matters": "141",
         "update": "2020-09-04 05:15:27.805274"
+    },
+    {
+        "people": "陳時中",
+        "keyword": "台湾",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%99%82%E4%B8%AD_(1952%E5%B9%B4)",
+        "vote": 1,
+        "hash": "8f724736b704897f729eb6bf93407431",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E9%83%A8%E9%95%B7%E9%99%B3%E6%99%82%E4%B8%AD.jpg",
+        "imgur": "https://i.imgur.com/Q4cEE4e.jpg",
+        "google": "17400000",
+        "twitter": "13700",
+        "ytb": "493000",
+        "reddit": "1180",
+        "medium": "481",
+        "matters": "114",
+        "update": "2020-09-04 17:15:37.685100"
+    },
+    {
+        "people": "余英時",
+        "keyword": "历史学家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BD%99%E8%8B%B1%E6%99%82",
+        "vote": 1,
+        "hash": "a9d5295f2c9fa0171342eec3c336d1f3",
+        "photo": "http://www.luanlishi.com/uploads/allimg/180122/01344531H_0.jpg",
+        "imgur": "https://i.imgur.com/nViCzdJ.jpeg",
+        "google": "639000",
+        "twitter": "2490",
+        "ytb": "8830",
+        "reddit": "30",
+        "medium": "132",
+        "matters": "114",
+        "update": "2020-09-04 17:16:02.090077"
+    },
+    {
+        "people": "杨小凯",
+        "keyword": "经济学家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%A8%E5%B0%8F%E5%87%AF",
+        "vote": 1,
+        "hash": "aac635408a82ffe8ef18d1faec9685dc",
+        "photo": "https://wx3.sinaimg.cn/large/540cd814ly1gabm6a5jn5j20go09dthp.jpg",
+        "imgur": "https://i.imgur.com/BFp5QEb.jpeg",
+        "google": "1570000",
+        "twitter": "831",
+        "ytb": "213",
+        "reddit": "17",
+        "medium": "40",
+        "matters": "30",
+        "update": "2020-09-04 17:16:29.234219"
+    },
+    {
+        "people": "郭于华",
+        "keyword": "教授",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%83%AD%E4%BA%8E%E5%8D%8E",
+        "vote": 1,
+        "hash": "c5e75cb5102dfe67442e7dd1ea72151c",
+        "photo": "https://pbs.twimg.com/media/EaxAVqBU8AAj6tg.png",
+        "imgur": "https://i.imgur.com/0nWEFK9.png",
+        "google": "0",
+        "twitter": "6800",
+        "ytb": "744",
+        "reddit": "413",
+        "medium": "0",
+        "matters": "30",
+        "chinesepen": "358",
+        "update": "2020-09-04 17:21:57.389248"
     }
 ]
