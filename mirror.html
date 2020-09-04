@@ -112,8 +112,8 @@ document.addEventListener("DOMContentLoaded", function(event){
             temps[temps.length-2] += 'm'
             let thumbnail = temps.join('.')
             td1.innerHTML += `<a class="thumb-post"><img src="${thumbnail}" ></img></a>`
-          }else if (item['photo']){
-            td1.innerHTML += `<a class="thumb-post"><img src="${item['photo']}" ></img></a>`
+          // }else if (item['photo']){
+          //   td1.innerHTML += `<a class="thumb-post"><img src="${item['photo']}" ></img></a>`
           }else{
             td1.innerHTML += `<a class="thumb-post"><img src="https://nodebe4.github.io/hero/assets/images/avatar.png" ></img></a>`            
           }
