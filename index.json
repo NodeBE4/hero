@@ -866,5 +866,13 @@
         "vote": 1,
         "hash": "8f724736b704897f729eb6bf93407431",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E9%83%A8%E9%95%B7%E9%99%B3%E6%99%82%E4%B8%AD.jpg"
+    },
+    {
+        "people": "余英時",
+        "keyword": "历史学家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BD%99%E8%8B%B1%E6%99%82",
+        "vote": 1,
+        "hash": "a9d5295f2c9fa0171342eec3c336d1f3",
+        "photo": "http://www.luanlishi.com/uploads/allimg/180122/01344531H_0.jpg"
     }
 ]
