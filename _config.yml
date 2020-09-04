@@ -30,7 +30,7 @@ navigation:
     url: https://nodebe4.github.io/opinion/
   - name: 論壇
     url: https://be4.herokuapp.com
-  - name: 關於
+  - name: <i class="fa fa-info-circle"></i>
     url: /about
 
 # Pagination
