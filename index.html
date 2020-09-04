@@ -103,7 +103,12 @@ document.addEventListener("DOMContentLoaded", function(event){
       thead_keys.map(key => {
         let td1 = document.createElement('td');
         if (key == 'people'){
-          if (item['photo']){
+          if (item['imgur']){
+            let temps = item['imgur'].split('.')
+            temps[temps.length-2] += 'm'
+            let thumbnail = temps.join('.')
+            td1.innerHTML += `<a class="thumb-post"><img src="${thumbnail}" ></img></a>`
+          }else if (item['photo']){
             td1.innerHTML += `<a class="thumb-post"><img src="${item['photo']}" ></img></a>`
           }else{
             td1.innerHTML += `<a class="thumb-post"><img src="{{ site.baseurl }}/assets/images/avatar.png" ></img></a>`            
