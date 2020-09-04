@@ -39,13 +39,6 @@ comments: true
         <div><input type="submit" value="提交"/></div>
       </div>
     </form>
-    <h4>HeroBot说</h4>
-    <div id="bot-message" class="overflow-auto">
-      <p style="color: #3498DB;"><i>"赞不会立即生效，每小时或創建新人物時更新一次"</i></p>      
-      <p style="color: #3498DB;"><i>"头像会有的"</i></p>      
-      <p><i style="color: blue">"英雄榜v1.0发布!"</i></p>
-    </div>
-    <p>旧版<a href="{{ site.baseurl }}/demo">demo</a></p>
   </div>
   <div class="col-12 col-md-6">
     <h4>關於</h4>
@@ -56,6 +49,15 @@ comments: true
       <p style="font-size: 12px;"><b>開源：</b>英雄榜的API开放<a href="https://github.com/NodeBE4/hero-form">源代码</a>且实际部署經第三方API託管平台<a href="https://vercel.com">vercel</a>所<a href="https://github.com/NodeBE4/hero-form/commits/master">验证</a>.</p>
     </div>    
   </div>
+  <div class="col-12">
+    <h4>HeroBot说</h4>
+    <div id="bot-message" class="overflow-auto">
+      <span style="color: #3498DB;"><i>"赞不会立即生效，每小时或創建新人物時更新一次"</i></span>; 
+      <span style="color: #3498DB;"><i>"头像会有的"</i></span>; 
+      <span><i style="color: blue">"英雄榜v1.0发布!"</i></span>; 
+      <span><i>旧版<a href="{{ site.baseurl }}/demo">demo</a></i></span>
+    </div>
+  </div>  
 </div>
 {% include simple-search.html %}
 
