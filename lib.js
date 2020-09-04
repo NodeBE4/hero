@@ -156,9 +156,18 @@ const google = new Scraper(options);
 
 async function googlePhoto(query){
   const results = await google.scrape(query, 10);
-  console.log('results', results[1]);
-  return results[1].url 
+  let i = between(0, 3)
+  console.log('results', results[i]);
+  return results[i].url 
 }
 
+/**
+ * Returns a random number between min (inclusive) and max (exclusive)
+ */
+function between(min, max) {  
+  return Math.floor(
+    Math.random() * (max - min) + min
+  )
+}
 module.exports = { loadRefSites, loadWikipedia, generateArticle, googlePhoto };
 
