@@ -858,5 +858,13 @@
         "medium": "171",
         "matters": "141",
         "update": "2020-09-04 05:15:27.805274"
+    },
+    {
+        "people": "陳時中",
+        "keyword": "台湾",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%99%82%E4%B8%AD_(1952%E5%B9%B4)",
+        "vote": 1,
+        "hash": "8f724736b704897f729eb6bf93407431",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E9%83%A8%E9%95%B7%E9%99%B3%E6%99%82%E4%B8%AD.jpg"
     }
 ]
