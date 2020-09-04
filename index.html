@@ -117,11 +117,11 @@ document.addEventListener("DOMContentLoaded", function(event){
             let temps = item['imgur'].split('.')
             temps[temps.length-2] += 'm'
             let thumbnail = temps.join('.')
-            td1.innerHTML += `<a class="thumb-post"><img src="${thumbnail}" ></img></a>`
+            td1.innerHTML += `<a class="thumb-post" href="{{ site.baseurl }}/${item['people']}"><img src="${thumbnail}" ></img></a>`
           // }else if (item['photo']){
           //   td1.innerHTML += `<a class="thumb-post"><img src="${item['photo']}" ></img></a>`
           }else{
-            td1.innerHTML += `<a class="thumb-post"><img src="{{ site.baseurl }}/assets/images/avatar.png" ></img></a>`            
+            td1.innerHTML += `<a class="thumb-post" href="{{ site.baseurl }}/${item['people']}"><img src="{{ site.baseurl }}/assets/images/avatar.png" ></img></a>`
           }
     	    td1.innerHTML += `<a href="{{ site.baseurl }}/${item[key]}"><b>${item[key]}</b></a>`;
           if (item['keyword']!==""){
