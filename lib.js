@@ -106,6 +106,7 @@ from: ${articlelink}
 tags: [ ${titletext}, 维基百科 ]
 categories: [ ${titletext} ]
 photo: ${photourl}
+comments: true
 ---
 `
   md = header + md

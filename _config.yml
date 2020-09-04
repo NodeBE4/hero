@@ -131,6 +131,15 @@ feed:
   posts_limit: 100
   tags: true
 
+gitalk:
+  clientID: be92e004d07a5eb7c6de
+  clientSecret: b15a95e9eb1e24d7a8e21c1ca1d8fa26651ed69c
+  repo: hero-comments
+  owner: NodeBE4
+  admin:
+    - NodeBE4
+    - duty-machine
+    - thphd
 # algolia:
 #   application_id: XPLK8EODKC
 #   index_name:     opinion # You can replace that with whatever name you want
