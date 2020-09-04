@@ -96,6 +96,7 @@ function generateArticle(item, intro) {
   let dateString = "1989-06-04"
   let titletext = item.people.toString().replace(/"/g, '\\"').replace("...", '')
   let articlelink = new URL(item.wiki).href
+  let photourl = item.imgur || ''
   let header = `---
 layout: post
 title: "${titletext}"
@@ -104,6 +105,7 @@ author: 维基百科
 from: ${articlelink}
 tags: [ ${titletext}, 维基百科 ]
 categories: [ ${titletext} ]
+photo: ${photourl}
 ---
 `
   md = header + md
