@@ -13,6 +13,18 @@ layout: default
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
+
+<div id="noscript-content"  class="text-center">
+  <p class="text-center">什么都不必说，我知道我明了</p>
+  <p class="text-center">他们说Javascript是万恶之源</p>
+  <p class="text-center"><b>但是</b>，真正的安全只有靠Tor, 去装个<a href="https://www.torproject.org/download/">Tor Browser</a>或<a href="https://www.privacytools.io/operating-systems/#tor_os">双虚拟机</a>吧</p>
+  <p class="text-center">因为<a href="https://github.com/diymysite/analytics/blob/master/pages/analytics.md">除了恶意网页插件，还有一万种方法监视你</a>.</p>
+  <p class="text-center">缺少javascript的世界是残缺的，就像没有英雄的世界</p>
+  <p class="text-center"><b>当然</b>，你可以直接阅读<a href="https://raw.githubusercontent.com/NodeBE4/hero/master/index.json">原始数据</a>或者网页代码</p>
+  <p class="text-center"><i>Javascript is the most beautiful language.</i></p>
+  <p class="text-center"><i>BITE ME</i></p>
+</div>
+
 <table id="hero-table-main" class="table table-striped table-bordered table-sm" style="width:100%;">
 
 </table>
@@ -67,6 +79,8 @@ document.addEventListener("DOMContentLoaded", function(event){
     'medium': '<i class="fa fa-medium medium" title="medium.com"></i>',
   	'matters': '<i class="fa fa-m" title="matters.news"></i>',
   }
+  var noscript = document.getElementById("noscript-content");
+  noscript.parentNode.removeChild(noscript)
   $.getJSON(url, function(json) {
     herolist = json;
 
