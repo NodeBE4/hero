@@ -925,5 +925,13 @@
         "matters": "30",
         "chinesepen": "358",
         "update": "2020-09-04 17:21:57.389248"
+    },
+    {
+        "people": "李敖",
+        "keyword": "李大师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%95%96",
+        "vote": 1,
+        "hash": "4d70a26c3e03867bf2b626d303f5fdd4",
+        "photo": "http://n.sinaimg.cn/sinacn11/266/w636h430/20180319/43dd-fyskeuc0427488.jpg"
     }
 ]
