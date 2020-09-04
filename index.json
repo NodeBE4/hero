@@ -34,7 +34,7 @@
     {
         "people": "蔡霞",
         "wiki": "https://zh.wikipedia.org/wiki/%E8%94%A1%E9%9C%9E",
-        "vote": 2,
+        "vote": 3,
         "hash": "87e64a8c405f73e6e1bfe081273f03db",
         "keyword": "教授",
         "google": "11900000",
@@ -291,7 +291,7 @@
         "people": "坦克人",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA",
-        "vote": 5,
+        "vote": 6,
         "hash": "1f1beba105f3a4fcc082c950c844670f",
         "google": "55600000",
         "twitter": "64500",
@@ -577,7 +577,7 @@
         "people": "周庭",
         "keyword": "香港",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%BA%AD",
-        "vote": 1,
+        "vote": 2,
         "hash": "7a862bd56327fc254452071f4e76c6f2",
         "photo": "https://gdb.voanews.com/29F6BA32-A431-44FD-A7BE-A2E422C9BF65_w1200_r1.jpg",
         "google": "47000000",
@@ -843,5 +843,13 @@
         "matters": "1940",
         "update": "2020-09-03 21:17:20.027255",
         "imgur": "https://i.imgur.com/boRi2lN.jpeg"
+    },
+    {
+        "people": "吳敦義",
+        "keyword": "前中華民國副總統",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%95%A6%E7%BE%A9",
+        "vote": 1,
+        "hash": "6c41e2555f586df8350621c7609b861d",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/63/Wu_Den-yih_%28Chopped%29.jpg"
     }
 ]
