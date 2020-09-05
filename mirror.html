@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function(event){
         if (key == 'people'){
           if (item['imgur']){
             let temps = item['imgur'].split('.')
-            temps[temps.length-2] += 'm'
+            temps[temps.length-2] += 's'
             let thumbnail = temps.join('.')
             td1.innerHTML += `<a class="thumb-post" href="https://nodebe4.github.io/hero/${item['people']}"><img src="${thumbnail}"></img></a>`
           // }else if (item['photo']){
