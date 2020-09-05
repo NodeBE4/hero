@@ -1050,5 +1050,13 @@
         "vote": 1,
         "hash": "a7d6a4080e1ae552d29c17bd6d23c362",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Hu_Shih_1917.jpg/200px-Hu_Shih_1917.jpg"
+    },
+    {
+        "people": "冯友兰",
+        "keyword": "哲学家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%86%AF%E5%8F%8B%E5%85%B0",
+        "vote": 1,
+        "hash": "df18fa0d54cf3591352786deeb7ba46a",
+        "photo": "https://5b0988e595225.cdn.sohucs.com/images/20191126/e76465b71bd04e69a7329af3f719e9f4.jpeg"
     }
 ]
