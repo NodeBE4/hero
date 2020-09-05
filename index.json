@@ -1026,5 +1026,13 @@
         "vote": 1,
         "hash": "edfbf6413fda9e02ee6a9880e65c22e6",
         "photo": "https://images.chinatimes.com/newsphoto/2019-08-01/900/20190801000782.jpg"
+    },
+    {
+        "people": "胡耀邦",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%80%80%E9%82%A6",
+        "vote": 1,
+        "hash": "5b7a6ecb34420571a652124c2a1ed350",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Young_Hu_Yiaobang.jpg/180px-Young_Hu_Yiaobang.jpg"
     }
 ]
