@@ -72,35 +72,35 @@ document.addEventListener("DOMContentLoaded", function(event){
   var id = "hero-table-main";
   const thead_format = {
     'vote': '<i style="color:#2980B9" class="fa fa-thumbs-up"></i>',
-  	'people': '<span><b>人物</b></span>',
-  	'google': '<i class="fa fa-google google" title="Google"></i>',
-  	'twitter': '<i class="fa fa-twitter twitter" title="Twitter"></i>',
-  	'ytb': '<i class="fa fa-youtube youtube" title="YouTube"></i>',
-  	'reddit': '<i class="fa fa-reddit reddit" title="reddit.com"></i>',
+    'people': '<span><b>人物</b></span>',
+    'google': '<i class="fa fa-google google" title="Google"></i>',
+    'twitter': '<i class="fa fa-twitter twitter" title="Twitter"></i>',
+    'ytb': '<i class="fa fa-youtube youtube" title="YouTube"></i>',
+    'reddit': '<i class="fa fa-reddit reddit" title="reddit.com"></i>',
     'medium': '<i class="fa fa-medium medium" title="medium.com"></i>',
-  	'matters': '<i class="fa fa-m" title="matters.news"></i>',
+    'matters': '<i class="fa fa-m" title="matters.news"></i>',
   }
   var noscript = document.getElementById("noscript-content");
   noscript.parentNode.removeChild(noscript)
   $.getJSON(url, function(json) {
     herolist = json;
 
-  	var table = document.getElementById(id);
-  	var thead = document.createElement('thead');
-  	var tbody = document.createElement('tbody');
-  	var tfoot = document.createElement('tfoot');
-  	table.appendChild(thead)
-  	table.appendChild(tbody)
-  	table.appendChild(tfoot)
-  	var tr0 = document.createElement('tr');
-  	thead.appendChild(tr0);
-  	var thead_vals = Object.values(thead_format)
-  	var thead_keys = Object.keys(thead_format)
-  	thead_vals.map(item => {
-  		var th = document.createElement('th')
-  		th.innerHTML = item
-  		tr0.appendChild(th)
-  	});
+    var table = document.getElementById(id);
+    var thead = document.createElement('thead');
+    var tbody = document.createElement('tbody');
+    var tfoot = document.createElement('tfoot');
+    table.appendChild(thead)
+    table.appendChild(tbody)
+    table.appendChild(tfoot)
+    var tr0 = document.createElement('tr');
+    thead.appendChild(tr0);
+    var thead_vals = Object.values(thead_format)
+    var thead_keys = Object.keys(thead_format)
+    thead_vals.map(item => {
+      var th = document.createElement('th')
+      th.innerHTML = item
+      tr0.appendChild(th)
+    });
 
     var lis = herolist.map(item => {
       let tr = document.createElement('tr');
@@ -118,32 +118,32 @@ document.addEventListener("DOMContentLoaded", function(event){
           }else{
             td1.innerHTML += `<a class="thumb-post" href="https://nodebe4.github.io/hero/${item['people']}"><img src="https://nodebe4.github.io/hero/assets/images/avatar.png"></img></a>`            
           }
-    	    td1.innerHTML += `<a href="https://nodebe4.github.io/hero/${item[key]}"><b>${item[key]}</b></a>`;
+          td1.innerHTML += `<a href="https://nodebe4.github.io/hero/${item[key]}"><b>${item[key]}</b></a>`;
           if (item['keyword']!==""){
             td1.innerHTML += `<i style="font-size:0.8em">   (${item['keyword']})</i>`;
           }
-    	  }else if(key=='vote'){
+        }else if(key=='vote'){
           let val = item[key] || 0
           td1.innerHTML += val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
           td1.innerHTML += `<a id="vote-${item.hash}" onclick="vote_hero('${item.hash}')" style="color:#2980B9"> <i class="fa fa-thumbs-o-up"></i></a>`
           td1.id = "vote-cnt-"+item.hash
         }else{
           let val = item[key] || 0
-    	  	td1.innerHTML = `<i style="font-size: 12px;">${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</i>`
-    	  }
+          td1.innerHTML = `<i style="font-size: 12px;">${val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</i>`
+        }
         tr.appendChild(td1);
       });
     });
 
-  	var tr2 = document.createElement('tr');
-  	tfoot.appendChild(tr2);
-  	thead_vals.map(item => {
-  		var th = document.createElement('th')
+    var tr2 = document.createElement('tr');
+    tfoot.appendChild(tr2);
+    thead_vals.map(item => {
+      var th = document.createElement('th')
       th.setAttribute("data-field", item)
       th.innerHTML = item
-  		tr2.appendChild(th)
-  	});
-  	$('#hero-table-main').DataTable( {
+      tr2.appendChild(th)
+    });
+    $('#hero-table-main').DataTable( {
         "order": [[ 2, "desc" ]],
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/Chinese.json"
