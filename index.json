@@ -1042,5 +1042,13 @@
         "vote": 1,
         "hash": "d89fdb2028084171b68fa3e4f193ab89",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/0/01/General_%28ROCA%29_Hau_Pei-tsun_%E9%99%B8%E8%BB%8D%E4%B8%8A%E5%B0%87%E9%83%9D%E6%9F%8F%E6%9D%91.jpg"
+    },
+    {
+        "people": "胡適",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%83%A1%E9%81%A9",
+        "vote": 1,
+        "hash": "a7d6a4080e1ae552d29c17bd6d23c362",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Hu_Shih_1917.jpg/200px-Hu_Shih_1917.jpg"
     }
 ]
