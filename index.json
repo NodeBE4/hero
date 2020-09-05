@@ -1205,5 +1205,13 @@
         "vote": 1,
         "hash": "3f165e54108d7da2acd6375564c04cc5",
         "photo": "http://gdb.voanews.com/55AE7D68-C2E7-4710-A453-4ECEB85F46DF_w640_r1_s.png"
+    },
+    {
+        "people": "张雪忠",
+        "keyword": "学者",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%9B%AA%E5%BF%A0",
+        "vote": 1,
+        "hash": "31b7a66c4a3041375e084892f9187a54",
+        "photo": "https://gdb.voanews.com/6DB5676A-661B-4D71-819B-98B2301C171E_cx0_cy3_cw0_w1200_r1.jpg"
     }
 ]
