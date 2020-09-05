@@ -32,8 +32,10 @@ async function loadWikipedia(url, id){
 
   const dom = new JSDOM(body)
   let content = dom.window.document.querySelector("#"+id);
-  var tables = content.querySelector("table");
-  tables.parentNode.removeChild(tables);
+  while (content.querySelector("table")){
+    var tables = content.querySelector("table");
+    tables.parentNode.removeChild(tables);
+  }
   // for (i=0;i<tables.length;i++){
   //   tables[i].parentNode.removeChild(tables[i]);
   //   // tables[i].remove();
