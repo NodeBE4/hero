@@ -1,17 +1,40 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>英雄 – 铭记英雄、关注英雄</title>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/NodeBE4/hero/master/assets/css/font-awesome-color-brand.css"  type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/NodeBE4/hero/master/assets/css/font-awesome-color-brand.css"  type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
+    <style>
+    .fa-m:before {
+        font-family: Arial; /* your font family here! */
+        font-weight: bold;
+        content: 'M';
+    }
+
+    .thumb-post img {
+      object-fit: cover; 
+      object-position: top; 
+      width: 40px;
+      overflow: hidden;
+      height: 40px;
+      display: inline;
+    }
+    </style>
+  </head>
+  <body>
 
 <div id="noscript-content"  class="text-center">
   <p class="text-center">什么都不必说，我知道我明了</p>
@@ -52,6 +75,7 @@ layout: default
       <p><b>參與：</b>歡迎有才華的您貢獻您的想法、代碼、或藝術設計，相關討論見<a href="https://github.com/NodeBE4/hero/issues/1">issue</a>或<a href="https://2047.name/t/7158">這裏</a>。<i style="color: #FF445D">歡迎友站host本頁鏡像(見:<a href="https://github.com/NodeBE4/hero">方法</a>與<a href="https://nodebe4.github.io/hero/mirror/">示例</a>).</i></p>
       <p style="color: #803030;"><b>隱私：</b>人物<i>提交</i>或<i>点赞</i><i class="fa fa-thumbs-o-up"></i>无需注册或登录，英雄榜无法獲知您的IP地址或浏览器指纹等隐私。</p>
       <p style="font-size: 12px;"><b>開源：</b>英雄榜的API开放<a href="https://github.com/NodeBE4/hero-form">源代码</a>且实际部署經第三方API託管平台<a href="https://vercel.com">vercel</a>所<a href="https://github.com/NodeBE4/hero-form/commits/master">验证</a>.</p>
+      <div style="font-size:12px">License: GPL-3.0-or-later</div>
     </div>
   </div>
 </div>
@@ -172,3 +196,6 @@ function vote_hero(hash){
   return false
 }
 </script>
+
+</body>
+</html>
