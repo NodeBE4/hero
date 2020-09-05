@@ -1296,5 +1296,13 @@
         "vote": 1,
         "hash": "59d6731f6929c83f9759b124180f8258",
         "photo": "https://www.chinesepen.org/wp-content/uploads/2019/01/%E9%87%91%E8%A7%82%E6%B6%9B.jpg"
+    },
+    {
+        "people": "方励之",
+        "keyword": "学者",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%96%B9%E5%8A%B1%E4%B9%8B",
+        "vote": 1,
+        "hash": "7bfbe30a56d3c204c89bdcf09d166952",
+        "photo": "https://s.rfi.fr/media/display/478ae8da-0fc9-11ea-93b9-005056bf7c53/w:1280/p:16x9/Fanglizhi85721.png"
     }
 ]
