@@ -1213,5 +1213,13 @@
         "vote": 1,
         "hash": "31b7a66c4a3041375e084892f9187a54",
         "photo": "https://gdb.voanews.com/6DB5676A-661B-4D71-819B-98B2301C171E_cx0_cy3_cw0_w1200_r1.jpg"
+    },
+    {
+        "people": "周保松",
+        "keyword": "香港",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E4%BF%9D%E6%9D%BE",
+        "vote": 1,
+        "hash": "6d335aa171df8ace2821b088d9a2e98e",
+        "photo": "https://cdn.thestandnews.com/media/photos/cache/chow-02_O4CJc_1200x0.png"
     }
 ]
