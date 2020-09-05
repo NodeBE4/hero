@@ -1082,5 +1082,13 @@
         "vote": 1,
         "hash": "e683367cbcaa10754a5c8aadebbb46d1",
         "photo": "http://www.fuyuzhiku.com/wp-content/uploads/2019/11/%E9%B2%8D%E9%B9%8F%E5%B1%B1%C2%B7-2.png"
+    },
+    {
+        "people": "张维迎",
+        "keyword": "教授",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E7%BB%B4%E8%BF%8E",
+        "vote": 1,
+        "hash": "776f3af67b9d65b51415c0b158228389",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Zhang_Weiyin_Annual_Meeting_of_the_New_Champions_2011.jpg"
     }
 ]
