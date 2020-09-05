@@ -1280,5 +1280,13 @@
         "vote": 1,
         "hash": "858970c5e0ef256f8236f09b21e1eba2",
         "photo": "x-raw-image:///416050a0636e2af78d4ff215060cc046a600c474e25bc57be2faf925d5fc69ab"
+    },
+    {
+        "people": "艾未未",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%9C%AA%E6%9C%AA",
+        "vote": 1,
+        "hash": "d0e2dafa517b1b31cf8dceb453a4dfc2",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Aj_Wej-wej_I_%282017%29.jpg/220px-Aj_Wej-wej_I_%282017%29.jpg"
     }
 ]
