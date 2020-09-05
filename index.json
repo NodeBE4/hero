@@ -1090,5 +1090,13 @@
         "vote": 1,
         "hash": "776f3af67b9d65b51415c0b158228389",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Zhang_Weiyin_Annual_Meeting_of_the_New_Champions_2011.jpg"
+    },
+    {
+        "people": "程映虹",
+        "keyword": "教授",
+        "wiki": "https://zh.wikipedia.org/wiki/%E7%A8%8B%E6%98%A0%E8%99%B9",
+        "vote": 1,
+        "hash": "7dee7bfc9e4275ab654e7f2db651af88",
+        "photo": "https://www.boxun.com/news/images/2019/07/201907160348pubvp1.jpg"
     }
 ]
