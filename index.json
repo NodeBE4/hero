@@ -1034,5 +1034,13 @@
         "vote": 1,
         "hash": "5b7a6ecb34420571a652124c2a1ed350",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Young_Hu_Yiaobang.jpg/180px-Young_Hu_Yiaobang.jpg"
+    },
+    {
+        "people": "郝柏村",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%83%9D%E6%9F%8F%E6%9D%91",
+        "vote": 1,
+        "hash": "d89fdb2028084171b68fa3e4f193ab89",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/0/01/General_%28ROCA%29_Hau_Pei-tsun_%E9%99%B8%E8%BB%8D%E4%B8%8A%E5%B0%87%E9%83%9D%E6%9F%8F%E6%9D%91.jpg"
     }
 ]
