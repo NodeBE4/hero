@@ -1288,5 +1288,13 @@
         "vote": 1,
         "hash": "d0e2dafa517b1b31cf8dceb453a4dfc2",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Aj_Wej-wej_I_%282017%29.jpg/220px-Aj_Wej-wej_I_%282017%29.jpg"
+    },
+    {
+        "people": "金观涛",
+        "keyword": "学者",
+        "wiki": "https://zh.wikipedia.org/wiki/%E9%87%91%E8%A7%80%E6%BF%A4",
+        "vote": 1,
+        "hash": "59d6731f6929c83f9759b124180f8258",
+        "photo": "https://www.chinesepen.org/wp-content/uploads/2019/01/%E9%87%91%E8%A7%82%E6%B6%9B.jpg"
     }
 ]
