@@ -1426,5 +1426,13 @@
         "vote": 1,
         "hash": "f86e06ce5f584a291da0bd2d1872fb91",
         "photo": "https://s.rfi.fr/media/display/9f4b5b50-1621-11ea-bde3-005056a99247/w:1280/p:1x1/2_75_1.jpg"
+    },
+    {
+        "people": "吴思",
+        "keyword": "学者",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D",
+        "vote": 1,
+        "hash": "1c6204318e6ee0f75e130b9068aac5ed",
+        "photo": "https://ichef.bbci.co.uk/news/ws/410/amz/worldservice/live/assets/images/2015/04/22/150422131851_wusi_512x288_bbc_nocredit.jpg"
     }
 ]
