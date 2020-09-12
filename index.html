@@ -69,12 +69,7 @@ comments: true
 {% include simple-search.html %}
 
 <div style="display:none">
- <form id="vote-form" action="https://hero-form.vercel.app/api/vote" method="post" onsubmit=";return false" target="_blank">
-    <div class="form-group">
-        <input id="input-hash" name="hash" type="text" style="display:table-cell; width:100%; max-width: 600px;">
-      <div><input type="submit" value="提交"/></div>
-    </div>
-  </form>
+  <iframe id="iframe-vote" src="{{ site.baseurl }}/vote"></iframe>
 </div>
 
 {% include disqus.html %}
@@ -170,8 +165,33 @@ document.addEventListener("DOMContentLoaded", function(event){
   })
 });
 
-var voteform = document.getElementById("vote-form");
-function handleForm(event) { event.preventDefault(); } 
-voteform.addEventListener('submit', handleForm);
+var iframe = document.getElementById("iframe-vote");
+
+iframe.contentWindow.document.addEventListener("DOMContentLoaded", function(event){
+  var voteform = iframe.contentWindow.document.getElementById("vote-form");
+
+  voteform.addEventListener('submit', function(event){
+    event.preventDefault(); 
+  });
+})
+
+
+function vote_hero(hash){
+  console.log(hash)
+  var btn = document.getElementById("vote-"+hash)
+  var cell = document.getElementById("vote-cnt-"+hash)
+  var count = parseInt(cell.innerText) + 1
+  btn.parentNode.removeChild(btn)
+  console.log(count)
+  cell.innerText = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+  // var form = document.getElementById("vote-form")
+  var form = iframe.contentWindow.document.getElementById("vote-form");
+  var inputhash = iframe.contentWindow.document.getElementById("input-hash")
+  inputhash.value=hash
+  form.submit()
+  // sendData(form)
+  return false
+}
+
 
 </script>
