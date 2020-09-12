@@ -38,15 +38,24 @@ async function performTasks() {
         let wiki = issue.body.split('\n')[0]
         let match = /^https:\/\/(zh|en).wikipedia.org\/wiki\//
         if (match.test(wiki)){
-            let rawfile = await octokit.repos.getContent({
-                            owner: OWNER,
-                            repo: REPO,
-                            path: `index.json`,
-                            ref: ref
-                        })
-            let buff = new Buffer.from(rawfile.data.content, 'base64')
-            let text = buff.toString('utf-8')
+            // let rawfile = await octokit.repos.getContent({
+            //                 owner: OWNER,
+            //                 repo: REPO,
+            //                 path: `index.json`,
+            //                 ref: ref
+            //             })
+            // let buff = new Buffer.from(rawfile.data.content, 'base64')
+            // let text = buff.toString('utf-8')
+            let text = fs.readFileSync('./index.json', {encoding:'utf8', flag:'r'})
             let json = JSON.parse(text)
+            let text2 = fs.readFileSync('./blacklist.json', {encoding:'utf8', flag:'r'})
+            let bjson = JSON.parse(text2)
+            var topleader = bjson.filter(function (item) {
+                return item.wiki == wiki ;
+            }); 
+            if (topleader.length > 0){
+              throw Error('英雄榜不接受现任国家元首，他们已经霸占了新闻头条。');
+            }
             let hash = crypto.createHash('md5').update(people+wiki).digest("hex")
             var thisperson = json.filter(function (item) {
                 return item.wiki == wiki ;

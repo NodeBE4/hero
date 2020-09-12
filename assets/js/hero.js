@@ -51,41 +51,6 @@ function loadHeroes(url, id){
 
 }
 
-function vote_hero(hash){
-  console.log(hash)
-  var btn = document.getElementById("vote-"+hash)
-  var cell = document.getElementById("vote-cnt-"+hash)
-  btn.parentNode.removeChild(btn)
-  var count = parseInt(cell.innerText) + 1
-  console.log(count)
-  cell.innerText = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-  var form = document.getElementById("vote-form")
-  var inputhash = document.getElementById("input-hash")
-  inputhash.value=hash
-  form.submit()
-  // let result = document.getElementById('bot-message'); 
-  // $('#vote-form').submit(function(){
-  //     $.ajax({
-  //       url: $('#form').attr('action'),
-  //       type: 'POST',
-  //       data : $('#form').serialize(),
-  //       success: function(response){
-  //         result.innerHTML  = `<p>${response}</p>` +result.innerHTML 
-  //         console.log('vote succeed');
-  //       }
-  //     });
-  //     return false;
-  // });
-  // let votedata = {
-  //   hash: hash
-  // }
-  // // Converting JSON data to string 
-  // var data = JSON.stringify(votedata); 
-  // let url = 'http://localhost:3000/api/vote'
-  // sendJSON(votedata, CORS_PROXY+url)
-  return false
-}
-
 function sendJSON(data, url){ 
   let result = document.getElementById('bot-message'); 
      
@@ -111,3 +76,26 @@ function sendJSON(data, url){
   // Sending data with the request 
   xhr.send(data); 
 } 
+
+function sendData(form) {
+  const XHR = new XMLHttpRequest();
+
+  // Bind the FormData object and the form element
+  const FD = new FormData( form );
+
+  // Define what happens on successful data submission
+  XHR.addEventListener( "load", function(event) {
+    alert( event.target.responseText );
+  } );
+
+  // Define what happens in case of error
+  XHR.addEventListener( "error", function( event ) {
+    alert( 'Oops! Something went wrong.' );
+  } );
+
+  // Set up our request
+  XHR.open( "POST", "https://hero-form.vercel.app/api/submit" );
+
+  // The data sent is what the user provided in the form
+  XHR.send( FD );
+}
