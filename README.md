@@ -6,17 +6,22 @@
 3. [x] 首页按赞数排序
 4. [x] 供友站鏡像的頁面和方法
 4. [ ] 网页艺术设计 css样式设计 
-5. [ ] 匿名讨论区
+5. [x] Github用户可参加的 ~~匿名~~ 讨论区
 6. [ ] 基于repo的后台管理功能
 
 ## 镜像本英雄榜的方法
-将[mirror.html](/mirror.html)文件中的html代码复制或嵌入到您的网页，需要删除顶部的以下内容
+**方法一** 将[mirror.html](/mirror.html)文件中的html代码复制或嵌入到您的网页 ～～，需要删除顶部的以下内容～～ (已经从文件中删除)
 ```yaml
 ---
 layout: default
 ---
 ```
+参考[官方镜像](https://hero-form.vercel.app)
 
+**方法二** 用iframe将官方镜像嵌入你的网页
+```html
+<iframe src="https://hero-form.vercel.app"></iframe>
+```
 
 ## 相關讨论组
 - https://2047.name/t/7158
