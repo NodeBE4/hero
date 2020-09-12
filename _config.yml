@@ -20,17 +20,11 @@ avatar:  # /images/apple-touch-icon.png #
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 觀點2
-    url: https://nodebe4.github.io/oped2/
-  - name: 他們
+  - name: <i class="fa fa-tags" title="分类"></i>
     url: /categories
-  - name: 外媒
-    url: https://nodebe4.github.io/waimei/
-  - name: 觀點
-    url: https://nodebe4.github.io/opinion/
-  - name: 論壇
-    url: https://be4.herokuapp.com
-  - name: <i class="fa fa-info-circle"></i>
+  - name: <i class="fa fa-comments" title="论坛"></i>
+    url: https://be4.herokuapp.com/
+  - name: <i class="fa fa-info-circle" title="关于"></i>
     url: /about
 
 # Pagination
