@@ -191,6 +191,7 @@ function vote_hero(hash){
   inputhash.value=hash
   form.submit()
   // sendData(form)
+  setTimeout(function(){ iframe.contentWindow.location.reload(); }, 3000)
   return false
 }
 

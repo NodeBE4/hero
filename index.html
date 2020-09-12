@@ -187,22 +187,6 @@ function vote_hero(hash){
   // var form = document.getElementById("vote-form")
   var form = iframe.contentWindow.document.getElementById("vote-form");
   var inputhash = iframe.contentWindow.document.getElementById("input-hash")
-  // if (form) {
-  //   var inputhash = iframe.contentWindow.document.getElementById("input-hash")
-  // }else{
-  //   form = iframe.contentWindow.document.createElement("form")
-  //   form.id = 'vote-form'
-  //   form.action = 'https://hero-form.vercel.app/api/vote'
-  //   form.method = 'post'
-  //   var inputhash = iframe.contentWindow.document.createElement("input")
-  //   form.appendChild(inputhash)
-  //   inputhash.id = 'input-hash'
-  //   inputhash.name='hash'
-  //   inputhash.type='text'
-  //   var sub = iframe.contentWindow.document.createElement("input")
-  //   sub.type = 'submit'
-  //   form.appendChild(sub)
-  // }
   inputhash.value=hash
   form.submit()
   // sendData(form)
