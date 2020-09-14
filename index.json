@@ -1552,5 +1552,13 @@
         "vote": 1,
         "hash": "2a329207677ff6700b3448f0f6c53a3e",
         "photo": "https://static01.nyt.com/images/2019/03/25/world/00china-pastor-1/00china-pastor-1-thumbLarge.jpg"
+    },
+    {
+        "people": "江天勇",
+        "keyword": "律师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%A4%A9%E5%8B%87",
+        "vote": 1,
+        "hash": "6df7ffade7ea0d050d9248fad6dba15a",
+        "photo": "https://i.ytimg.com/vi/h3WyQudKiNk/maxresdefault.jpg"
     }
 ]
