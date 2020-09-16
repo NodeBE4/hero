@@ -413,16 +413,16 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E9%99%88%E7%A7%8B%E5%AE%9E_(%E5%BE%8B%E5%B8%88)",
         "vote": 2,
         "hash": "8ece9b695a865369b5632d111efc74f2",
-        "google": "0",
-        "twitter": "43100",
-        "ytb": "296000",
-        "reddit": "3330",
-        "matters": "202",
-        "update": "2020-09-13 02:28:51.225174",
+        "google": "86800",
+        "twitter": "41200",
+        "ytb": "285000",
+        "reddit": "2870",
+        "matters": "228",
+        "update": "2020-09-16 03:26:40.669767",
         "photo": "https://gdb.voanews.com/017027AB-5372-4AD4-A3C2-7B270327D23C_cx0_cy13_cw0_w1080_h608_s.png",
         "imgur": "https://i.imgur.com/0NlV71K.png",
-        "medium": "129",
-        "chinesepen": "232"
+        "medium": "126",
+        "chinesepen": "243"
     },
     {
         "people": "刘晓波",
@@ -431,15 +431,15 @@
         "vote": 1,
         "hash": "9b0871c55124489be4951797d7134ff8",
         "photo": "https://pbs.twimg.com/profile_images/2848647281/4f77e5f63ed87587019342135ec8e507.jpeg",
-        "google": "750000",
-        "twitter": "53400",
-        "ytb": "41100",
-        "reddit": "3870",
-        "matters": "544",
-        "update": "2020-09-13 06:28:37.604331",
+        "google": "701000",
+        "twitter": "50700",
+        "ytb": "40100",
+        "reddit": "3780",
+        "matters": "461",
+        "update": "2020-09-16 06:29:45.389485",
         "imgur": "https://i.imgur.com/vM2ALc6.jpeg",
-        "medium": "692",
-        "chinesepen": "63500"
+        "medium": "586",
+        "chinesepen": "59900"
     },
     {
         "people": "封从德",
@@ -1630,5 +1630,22 @@
         "matters": "0",
         "chinesepen": "1340",
         "update": "2020-09-15 19:24:27.513834"
+    },
+    {
+        "people": "岳昕",
+        "keyword": "北大学生",
+        "wiki": "https://zh.wikipedia.org/wiki/%E5%B2%B3%E6%98%95",
+        "vote": 1,
+        "hash": "0f0b9f4782a651f6112e76cc821a99fe",
+        "photo": "https://www.abc.net.au/cm/rimage/9705356-3x4-thumbnail.jpg?v=2",
+        "imgur": "https://i.imgur.com/n1krGEV.jpg",
+        "google": "1190000",
+        "twitter": "3550",
+        "ytb": "3310",
+        "reddit": "1080",
+        "medium": "62",
+        "matters": "191",
+        "chinesepen": "43",
+        "update": "2020-09-16 07:25:10.627951"
     }
 ]
