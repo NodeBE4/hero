@@ -891,14 +891,14 @@
         "hash": "6c41e2555f586df8350621c7609b861d",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/6/63/Wu_Den-yih_%28Chopped%29.jpg",
         "imgur": "https://i.imgur.com/ZRMyHLB.jpg",
-        "google": "591000",
-        "twitter": "3290",
-        "ytb": "279000",
-        "reddit": "1210",
-        "medium": "220",
-        "matters": "176",
-        "update": "2020-09-14 06:28:53.547803",
-        "chinesepen": "71"
+        "google": "584000",
+        "twitter": "2760",
+        "ytb": "295000",
+        "reddit": "1160",
+        "medium": "219",
+        "matters": "183",
+        "update": "2020-09-17 06:29:47.070396",
+        "chinesepen": "77"
     },
     {
         "people": "陳時中",
@@ -1654,7 +1654,16 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E7%AC%91%E8%9C%80",
         "vote": 1,
         "hash": "1ef8b42eb45e9480aff1639ebfc2d542",
-        "photo": "https://assets.matters.news/avatar/0434f1b9-3476-45c1-8bee-ccda2ce35f5c.jpeg"
+        "photo": "https://assets.matters.news/avatar/0434f1b9-3476-45c1-8bee-ccda2ce35f5c.jpeg",
+        "imgur": "https://i.imgur.com/1Le7MiX.jpg",
+        "google": "2940000",
+        "twitter": "13500",
+        "ytb": "19900",
+        "reddit": "126",
+        "medium": "138",
+        "matters": "444",
+        "chinesepen": "1960",
+        "update": "2020-09-17 06:30:14.053128"
     },
     {
         "people": "艾晓明",
@@ -1662,6 +1671,15 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%99%93%E6%98%8E",
         "vote": 1,
         "hash": "6fc5ab0c5ce15dbee5e1d81ee351f753",
-        "photo": "https://m.23yy.com/upload/2017/01/29/e649ab54-ab74-438a-be04-4c30ededfbd6.jpg"
+        "photo": "https://m.23yy.com/upload/2017/01/29/e649ab54-ab74-438a-be04-4c30ededfbd6.jpg",
+        "imgur": "https://i.imgur.com/A9ZlB2K.jpg",
+        "google": "2820000",
+        "twitter": "3350",
+        "ytb": "1350",
+        "reddit": "24",
+        "medium": "30",
+        "matters": "1080",
+        "chinesepen": "879",
+        "update": "2020-09-17 06:30:41.176634"
     }
 ]
