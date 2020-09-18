@@ -1689,5 +1689,13 @@
         "vote": 1,
         "hash": "2c5451779f8f05b40d3451aa378bd8f3",
         "photo": "https://wentommy.files.wordpress.com/2018/02/e69d8ee5a4a7e5908c1.jpg?w=640"
+    },
+    {
+        "people": "李和平",
+        "keyword": "律师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%92%8C%E5%B9%B3_(%E5%BE%8B%E5%B8%88)",
+        "vote": 1,
+        "hash": "6bb01f12c97d830e7c9edc790963ba09",
+        "photo": "https://www.rfa.org/mandarin/yataibaodao/renquanfazhi/yf2-05102017104448.html/674e548c5e73548c59bb5b50738b5ced5cad-7ef467434eba58eb72ec5bb663d04f9b.JPG"
     }
 ]
