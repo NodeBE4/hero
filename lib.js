@@ -26,36 +26,38 @@ async function loadWikipedia(url, id){
   // const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
   // var html = document.createElement("div");
   // html.id = "about";
+  try {
+    const response = await fetch(url, settings);
+    const body = await response.text();
 
-  const response = await fetch(url, settings);
-  const body = await response.text();
-
-  const dom = new JSDOM(body)
-  let content = dom.window.document.querySelector("#"+id);
-  while (content.querySelector("table")){
-    var tables = content.querySelector("table");
-    tables.parentNode.removeChild(tables);
-  }
-  // for (i=0;i<tables.length;i++){
-  //   tables[i].parentNode.removeChild(tables[i]);
-  //   // tables[i].remove();
-  // }
-  var toc = content.querySelector("#toc");
-  if (toc == null ){
-    var toc = content.querySelector("h2");
-  }
-  if (toc){
-    while(toc.nextSibling){
-      var element = toc.nextSibling;
-      element.parentNode.removeChild(element);
+    const dom = new JSDOM(body)
+    let content = dom.window.document.querySelector("#"+id);
+    while (content.querySelector("table")){
+      var tables = content.querySelector("table");
+      tables.parentNode.removeChild(tables);
     }
-    toc.parentNode.removeChild(toc);
+    // for (i=0;i<tables.length;i++){
+    //   tables[i].parentNode.removeChild(tables[i]);
+    //   // tables[i].remove();
+    // }
+    var toc = content.querySelector("#toc");
+    if (toc == null ){
+      var toc = content.querySelector("h2");
+    }
+    if (toc){
+      while(toc.nextSibling){
+        var element = toc.nextSibling;
+        element.parentNode.removeChild(element);
+      }
+      toc.parentNode.removeChild(toc);
+    }
+    // el.innerHTML = html.innerHTML;
+    // html.appencChild(content)
+
+    return content.innerHTML;
+  } catch(error) {
+    throw error
   }
-  // el.innerHTML = html.innerHTML;
-  // html.appencChild(content)
-
-  return content.innerHTML;
-
 }
 
 function loadNews(hero){
