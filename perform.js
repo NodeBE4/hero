@@ -42,8 +42,12 @@ async function perform() {
   await loadRefSites()
 
   await Promise.all(heroes.map(async (item) => {
-    let intro = await loadWikipedia(item.wiki, "mw-content-text")
-    generateArticle(item, intro)
+    try {
+      let intro = await loadWikipedia(item.wiki, "mw-content-text")
+      generateArticle(item, intro)
+    }catch(error){
+      console.log(error)
+    }
   }));
 }
 
