@@ -46,6 +46,7 @@ async function perform() {
       let intro = await loadWikipedia(item.wiki, "mw-content-text")
       generateArticle(item, intro)
     }catch(error){
+      console.log(`error: ${item['people']}`)
       console.log(error)
     }
   }));
