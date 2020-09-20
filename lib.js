@@ -21,6 +21,10 @@ function getElementById(node, id) {
     return node.querySelector("#" + id);
 }
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 async function loadWikipedia(url, id){
   // var div = document.getElementById('submitText');
   // const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
@@ -53,6 +57,7 @@ async function loadWikipedia(url, id){
     }
     // el.innerHTML = html.innerHTML;
     // html.appencChild(content)
+    await sleep(2000)
 
     return content.innerHTML;
   } catch(error) {
