@@ -10,12 +10,14 @@ let URL = urlMod.URL
 
 let db_news_url = 'https://nodebe4.github.io/waimei/search.json'
 let db_oped_url = 'https://nodebe4.github.io/opinion/search.json'
+let db_mjls_url = 'https://nodebe4.github.io/mjlsh/search.json'
 const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
 
 let settings = { method: "Get" }
 
 let news = []
 let oped = []
+let mjls = []
 
 function getElementById(node, id) {    
     return node.querySelector("#" + id);
@@ -94,11 +96,29 @@ function loadOped(hero){
   return html.parentElement.innerHTML
 }
 
+function loadMjls(hero){
+  const html = (new JSDOM(`<div><h3></h3><ul></ul></div>`)).window.document.querySelector("div")
+  const ul = html.querySelector("ul")
+  const h3 = html.querySelector("h3")
+  html.id = "mjls-record"
+  h3.innerHTML = "民间历史"
+  let relatednews = mjls.map(item => {
+    if (item['title'].includes(hero) || item['desc'].includes(hero)){
+      var baseurl = "https://nodebe4.github.io"
+      ul.innerHTML += `<li><a href="${baseurl+item['url']}" title="${item['desc']}">${item['title']}</a><time>${item['date']}</time><a class="tag">${item['category']}</a></li>\n`
+      return item
+    }
+  })
+  return html.parentElement.innerHTML
+}
+
+
 function generateArticle(item, intro) {
   let today = new Date()
   let openoped = loadOped(item['people'])
   let recentnews = loadNews(item['people'])
-  let md = intro + recentnews + openoped
+  let mjlsrecord = loadMjls(item['people'])
+  let md = intro + recentnews + openoped + mjlsrecord
   let dateString = "1989-06-04"
   let titletext = item.people.toString().replace(/"/g, '\\"').replace("...", '')
   let articlelink = new URL(item.wiki).href
@@ -143,6 +163,12 @@ async function loadRefSites(){
     .then(res => res.json())
     .then((json) => {
       oped = json
+    });
+
+  await fetch(db_mjls_url, settings)
+    .then(res => res.json())
+    .then((json) => {
+      mjls = json
     });
 }
 

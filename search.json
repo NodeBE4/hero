@@ -7,7 +7,7 @@ layout: null
     {
       "title"    : "{{ post.title | strip | escape }}",
       "author"   : "{{ post.author | join: ', ' }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
+      "tags"     : "{{ post.categories | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "desc"     : "{{ post.content | strip_html | strip_newlines | normalize_whitespace | escape | truncate: 200 }}"
     } {% unless forloop.last %},{% endunless %}
