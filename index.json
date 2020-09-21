@@ -1821,5 +1821,13 @@
         "vote": 1,
         "hash": "b271a1a159ad60ac2b1e2e0cd837b311",
         "photo": "https://gdb.voanews.com/AB686694-3BFB-4095-B509-412CA8435BA0_w1080_h608.jpg"
+    },
+    {
+        "people": "方方",
+        "keyword": "作家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%96%B9_(%E4%BD%9C%E5%AE%B6)",
+        "vote": 1,
+        "hash": "846f13177b99046afa9ac9aae29903e1",
+        "photo": "https://i.ntdtv.com/assets/uploads/2020/02/22df988f4c6f3edab00e9d67d43b9b19-600x341.jpg"
     }
 ]
