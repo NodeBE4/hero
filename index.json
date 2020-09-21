@@ -716,7 +716,8 @@
         "matters": "76",
         "update": "2020-09-19 20:28:57.698560",
         "imgur": "https://i.imgur.com/L63ar8c.jpeg",
-        "chinesepen": "91"
+        "chinesepen": "91",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "黃之鋒",
@@ -751,7 +752,8 @@
         "matters": "45",
         "update": "2020-09-19 20:29:43.487323",
         "imgur": "https://i.imgur.com/X4ueeMF.jpg",
-        "chinesepen": "1250"
+        "chinesepen": "1250",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "趙少康",
@@ -858,7 +860,8 @@
         "update": "2020-09-20 01:06:21.583583",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/LiAoAtFayuansi.JPG/131px-LiAoAtFayuansi.JPG",
         "imgur": "https://i.imgur.com/Ck3f0tc.jpeg",
-        "chinesepen": "79"
+        "chinesepen": "79",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "梁天琦",
@@ -1019,7 +1022,8 @@
         "medium": "0",
         "matters": "37",
         "chinesepen": "467",
-        "update": "2020-09-20 21:29:41.955447"
+        "update": "2020-09-20 21:29:41.955447",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "李敖",
@@ -1144,7 +1148,8 @@
         "medium": "19",
         "matters": "16",
         "chinesepen": "0",
-        "update": "2020-09-18 19:23:57.586693"
+        "update": "2020-09-18 19:23:57.586693",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "胡耀邦",
@@ -1179,7 +1184,8 @@
         "medium": "74",
         "matters": "30",
         "chinesepen": "185",
-        "update": "2020-09-18 19:24:44.271135"
+        "update": "2020-09-18 19:24:44.271135",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "胡適",
@@ -1196,7 +1202,8 @@
         "medium": "693",
         "matters": "354",
         "chinesepen": "4270",
-        "update": "2020-09-18 19:25:09.394263"
+        "update": "2020-09-18 19:25:09.394263",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "冯友兰",
@@ -1213,7 +1220,8 @@
         "medium": "126",
         "matters": "83",
         "chinesepen": "910",
-        "update": "2020-09-18 19:25:33.211859"
+        "update": "2020-09-18 19:25:33.211859",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "陈寅恪",
@@ -1230,7 +1238,8 @@
         "medium": "301",
         "matters": "101",
         "chinesepen": "1360",
-        "update": "2020-09-18 19:25:56.468502"
+        "update": "2020-09-18 19:25:56.468502",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "钱穆",
@@ -1265,7 +1274,8 @@
         "medium": "8",
         "matters": "0",
         "chinesepen": "24",
-        "update": "2020-09-18 19:26:43.470605"
+        "update": "2020-09-18 19:26:43.470605",
+        "page_updated": "2020-09-21T07:21:36.443Z"
     },
     {
         "people": "张维迎",
@@ -1855,7 +1865,7 @@
         "people": "方方",
         "keyword": "作家",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%96%B9%E6%96%B9_(%E4%BD%9C%E5%AE%B6)",
-        "vote": 1,
+        "vote": 2,
         "hash": "846f13177b99046afa9ac9aae29903e1",
         "photo": "https://i.ntdtv.com/assets/uploads/2020/02/22df988f4c6f3edab00e9d67d43b9b19-600x341.jpg",
         "imgur": "https://i.imgur.com/h7650Ko.jpeg",
@@ -1898,6 +1908,7 @@
         "medium": "0",
         "matters": "0",
         "chinesepen": "0",
-        "update": "2020-09-21 06:30:38.977566"
+        "update": "2020-09-21 06:30:38.977566",
+        "photo": "http://p4.sinaimg.cn/1840842795/180/18161383018987"
     }
 ]
