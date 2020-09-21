@@ -15,6 +15,8 @@ const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
 
 let settings = { method: "Get" }
 
+const oneday = 60 * 60 * 24 * 1000
+
 async function perform() {
   let rawdata = fs.readFileSync('./index.json', {encoding:'utf8', flag:'r'})
   let heroes = JSON.parse(rawdata)
@@ -41,10 +43,19 @@ async function perform() {
   
   await loadRefSites()
 
+  let current = new Date()
+
   await Promise.all(heroes.map(async (item) => {
+    if (item['page_updated']){
+      let lastupdate = Date.parse(item['page_updated'])
+      if ((current - lastupdate) < oneday){
+        return null
+      }
+    }
     try {
       let intro = await loadWikipedia(item.wiki, "mw-content-text")
       generateArticle(item, intro)
+      item['page_updated'] = current
     }catch(error){
       console.log(`error: ${item['people']}`)
       console.log(error)
