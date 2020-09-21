@@ -62,7 +62,7 @@ async function perform() {
     }
   }));
 
-  let content = JSON.stringify(heroes, undefined, 4)
+  content = JSON.stringify(heroes, undefined, 4)
   fs.writeFileSync(`./index.json`, content)
 
 }
