@@ -64,6 +64,19 @@ async function loadWikipedia(url, id){
 
 }
 
+async function loadBaiduBaike(url){
+
+  await sleep(2000)
+  const response = await fetch(url, settings);
+  const body = await response.text();
+
+  const dom = new JSDOM(body)
+  let content = dom.window.document.querySelector(".lemma-summary");
+
+  return content.innerHTML;
+
+}
+
 function loadNews(hero){
   const html = (new JSDOM(`<div><h3></h3><ul></ul></div>`)).window.document.querySelector("div")
   const ul = html.querySelector("ul")
@@ -201,5 +214,5 @@ function between(min, max) {
     Math.random() * (max - min) + min
   )
 }
-module.exports = { loadRefSites, loadWikipedia, generateArticle, googlePhoto };
+module.exports = { loadRefSites, loadWikipedia, loadBaiduBaike, generateArticle, googlePhoto };
 

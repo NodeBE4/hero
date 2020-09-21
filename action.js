@@ -1,5 +1,5 @@
 let { Octokit } = require('@octokit/rest')
-let { loadWikipedia, generateArticle, googlePhoto } = require('./lib')
+let { loadWikipedia, loadBaiduBaike, generateArticle, googlePhoto } = require('./lib')
 const crypto = require('crypto');
 let fs = require('fs')
 
@@ -37,15 +37,9 @@ async function performTasks() {
         let keyword = titletext.replace(people,'').replace("-",'')
         let wiki = issue.body.split('\n')[0]
         let match = /^https:\/\/(zh|en).wikipedia.org\/wiki\//
-        if (match.test(wiki)){
-            // let rawfile = await octokit.repos.getContent({
-            //                 owner: OWNER,
-            //                 repo: REPO,
-            //                 path: `index.json`,
-            //                 ref: ref
-            //             })
-            // let buff = new Buffer.from(rawfile.data.content, 'base64')
-            // let text = buff.toString('utf-8')
+        let match2 = /^https:\/\/baike.baidu.com\/item\//
+        if (match.test(wiki) || (match2.test(wiki))){
+
             let text = fs.readFileSync('./index.json', {encoding:'utf8', flag:'r'})
             let json = JSON.parse(text)
             let text2 = fs.readFileSync('./blacklist.json', {encoding:'utf8', flag:'r'})
@@ -120,8 +114,15 @@ async function performTasks() {
               let content = JSON.stringify(json, undefined, 4);
 
               let prTitle = `添加新人物-${people}`
-
-              let intro = await loadWikipedia(newhero.wiki, "mw-content-text")
+              
+              let intro 
+              if (match.test(wiki)){
+                intro = await loadWikipedia(newhero.wiki, "mw-content-text")
+              }else if (match2.test(wiki)){
+                intro = await loadBaiduBaike(newhero.wiki)
+              }else{
+                throw new UserException('Invalid: wikipedia or baidu baike' )
+              }
               let page = generateArticle(newhero, intro)
 
               fs.writeFileSync(`./index.json`, content)
