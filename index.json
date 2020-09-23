@@ -195,7 +195,7 @@
         "medium": "118",
         "imgur": "https://i.imgur.com/c2tBUNR.jpeg",
         "chinesepen": "2020",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "许志永",
@@ -213,7 +213,7 @@
         "medium": "35",
         "imgur": "https://i.imgur.com/9DCvqIz.jpeg",
         "chinesepen": "48200",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "陈光诚",
@@ -231,7 +231,7 @@
         "medium": "424",
         "imgur": "https://i.imgur.com/DKmV9ff.jpeg",
         "chinesepen": "1540",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "程晓农",
@@ -267,7 +267,7 @@
         "medium": "48",
         "imgur": "https://i.imgur.com/5iQ5tZb.jpg",
         "chinesepen": "873",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "向松祚",
@@ -393,7 +393,7 @@
         "medium": "1790",
         "imgur": "https://i.imgur.com/pULsQAR.jpeg",
         "chinesepen": "0",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "任志強",
@@ -411,7 +411,7 @@
         "medium": "193",
         "imgur": "https://i.imgur.com/nwt3y15.jpeg",
         "chinesepen": "6940",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "王丹",
@@ -915,7 +915,7 @@
         "update": "2020-09-23 01:36:58.499322",
         "imgur": "https://i.imgur.com/ZJnXmEp.jpg",
         "chinesepen": "0",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "陳云根",
@@ -933,7 +933,7 @@
         "update": "2020-09-23 01:37:22.320160",
         "imgur": "https://i.imgur.com/Uh5Xo9I.jpg",
         "chinesepen": "0",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "吳敦義",
@@ -1041,7 +1041,7 @@
         "matters": "238",
         "chinesepen": "1060",
         "update": "2020-09-20 22:24:49.431746",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "李泽厚",
@@ -1725,7 +1725,7 @@
         "matters": "11",
         "chinesepen": "1850",
         "update": "2020-09-21 21:27:17.361192",
-        "page_updated": "2020-09-22T05:20:45.106Z"
+        "page_updated": "2020-09-23T05:20:52.107Z"
     },
     {
         "people": "岳昕",
@@ -1947,6 +1947,7 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%94%90_(1917%E5%B9%B4)",
         "vote": 1,
         "hash": "4b4f682da604ab39b25c0c09e3524e80",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Li_Rui_crop.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Li_Rui_crop.jpg",
+        "page_updated": "2020-09-23T05:20:52.107Z"
     }
 ]
