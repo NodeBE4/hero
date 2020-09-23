@@ -1940,5 +1940,13 @@
         "update": "2020-09-21 06:30:38.977566",
         "photo": "http://p4.sinaimg.cn/1840842795/180/18161383018987",
         "imgur": "https://i.imgur.com/RpifL7m.jpeg"
+    },
+    {
+        "people": "李锐",
+        "keyword": "",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%94%90_(1917%E5%B9%B4)",
+        "vote": 1,
+        "hash": "4b4f682da604ab39b25c0c09e3524e80",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Li_Rui_crop.jpg"
     }
 ]
