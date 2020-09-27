@@ -2,7 +2,7 @@
     {
         "people": "许章润",
         "wiki": "https://zh.wikipedia.org/wiki/%E8%AE%B8%E7%AB%A0%E6%B6%A6",
-        "vote": 5,
+        "vote": 6,
         "hash": "c67de2c26645c24cc02ec8dae3ca6cb9",
         "keyword": "教授",
         "google": "1110000",
@@ -327,7 +327,7 @@
         "people": "坦克人",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA",
-        "vote": 21,
+        "vote": 22,
         "hash": "1f1beba105f3a4fcc082c950c844670f",
         "google": "62000000",
         "twitter": "54800",
@@ -435,7 +435,7 @@
         "people": "陈秋实",
         "keyword": "律师",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%99%88%E7%A7%8B%E5%AE%9E_(%E5%BE%8B%E5%B8%88)",
-        "vote": 2,
+        "vote": 3,
         "hash": "8ece9b695a865369b5632d111efc74f2",
         "google": "246000",
         "twitter": "39300",
@@ -453,7 +453,7 @@
         "people": "刘晓波",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%88%98%E6%99%93%E6%B3%A2",
-        "vote": 2,
+        "vote": 3,
         "hash": "9b0871c55124489be4951797d7134ff8",
         "photo": "https://pbs.twimg.com/profile_images/2848647281/4f77e5f63ed87587019342135ec8e507.jpeg",
         "google": "824000",
@@ -591,7 +591,7 @@
         "update": "2020-09-25 21:34:54.211430",
         "imgur": "https://i.imgur.com/sN890KE.jpg",
         "chinesepen": "264",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "明居正",
@@ -609,7 +609,7 @@
         "update": "2020-09-25 21:35:19.304610",
         "imgur": "https://i.imgur.com/UK6yFGM.jpg",
         "chinesepen": "0",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "崔永元",
@@ -627,7 +627,7 @@
         "update": "2020-09-25 21:35:43.572354",
         "imgur": "https://i.imgur.com/SKrHLUx.jpeg",
         "chinesepen": "384",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "司徒華",
@@ -645,13 +645,13 @@
         "update": "2020-09-25 21:36:10.017175",
         "imgur": "https://i.imgur.com/KNtASQD.jpg",
         "chinesepen": "351",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "周庭",
         "keyword": "香港",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%BA%AD",
-        "vote": 6,
+        "vote": 7,
         "hash": "7a862bd56327fc254452071f4e76c6f2",
         "photo": "https://gdb.voanews.com/29F6BA32-A431-44FD-A7BE-A2E422C9BF65_w1200_r1.jpg",
         "google": "25500000",
@@ -663,7 +663,7 @@
         "update": "2020-09-25 21:36:37.645829",
         "imgur": "https://i.imgur.com/mqeKauy.jpg",
         "chinesepen": "26",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "何韵诗",
@@ -681,13 +681,13 @@
         "update": "2020-09-25 21:37:03.598794",
         "imgur": "https://i.imgur.com/DhlDaUn.jpg",
         "chinesepen": "82",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "崔健",
         "keyword": "歌手",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%B4%94%E5%81%A5",
-        "vote": 1,
+        "vote": 2,
         "hash": "118181e34ed3ac237aa057299a48f6ec",
         "photo": "http://i3.sinaimg.cn/ent/cr/2014/0909/3181253155.jpg",
         "google": "615000",
@@ -699,7 +699,7 @@
         "update": "2020-09-25 21:37:30.230043",
         "imgur": "https://i.imgur.com/62gChrB.jpeg",
         "chinesepen": "754",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "高晓松",
@@ -717,13 +717,13 @@
         "update": "2020-09-25 21:37:55.953780",
         "imgur": "https://i.imgur.com/L63ar8c.jpeg",
         "chinesepen": "91",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "黃之鋒",
         "keyword": "香港",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%B9%8B%E9%8B%92",
-        "vote": 3,
+        "vote": 4,
         "hash": "5094687e54ee247ba7656acd027c4f7d",
         "photo": "https://cdn.media.worldjournal.com/wp-content/uploads/2019/11/201911020532198221_32537.jpg",
         "google": "3580000",
@@ -735,7 +735,7 @@
         "update": "2020-09-25 22:25:50.800547",
         "imgur": "https://i.imgur.com/f2oGfB3.jpg",
         "chinesepen": "797",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "冉云飞",
@@ -771,7 +771,7 @@
         "update": "2020-09-25 22:26:40.440288",
         "imgur": "https://i.imgur.com/Yy4fG4Y.jpg",
         "chinesepen": "75",
-        "page_updated": "2020-09-26T10:22:07.917Z"
+        "page_updated": "2020-09-27T10:22:19.287Z"
     },
     {
         "people": "蔣經國",
@@ -1065,7 +1065,7 @@
         "people": "孫中山",
         "keyword": "國父",
         "wiki": "https://zh.wikipedia.org/wiki/%E5%AD%AB%E4%B8%AD%E5%B1%B1",
-        "vote": 1,
+        "vote": 2,
         "hash": "d4213e9d00bac1a07d98445d5f8c0cc1",
         "google": "409000",
         "twitter": "15900",
@@ -1533,7 +1533,7 @@
         "people": "丁子霖",
         "keyword": "天安门母亲",
         "wiki": "https://zh.wikipedia.org/wiki/%E4%B8%81%E5%AD%90%E9%9C%96",
-        "vote": 2,
+        "vote": 3,
         "hash": "bf6386270a5432153d129c8eaf6d6186",
         "photo": "https://gdb.voanews.com/D58AA736-0C9D-4457-B9DC-F1ECC22F44D9_cx0_cy3_cw0_w1200_r1.jpg",
         "imgur": "https://i.imgur.com/ocMjf51.jpg",
@@ -1981,7 +1981,7 @@
         "people": "总加速师",
         "keyword": "",
         "wiki": "https://zh.wikipedia.org/wiki/%E7%B8%BD%E5%8A%A0%E9%80%9F%E5%B8%AB",
-        "vote": 1,
+        "vote": 2,
         "hash": "55039927cd704406b3516006d79e34de",
         "photo": "https://pbs.twimg.com/media/EcFsr2LU4AME6eR.jpg",
         "page_updated": "2020-09-26T17:20:43.756Z",
