@@ -2027,7 +2027,8 @@
         "medium": "0",
         "matters": "0",
         "chinesepen": "7",
-        "update": "2020-09-28 20:29:20.356447"
+        "update": "2020-09-28 20:29:20.356447",
+        "photo": "https://www.xiangya.com.cn/uploadfiles/20151105/20151105165120185.jpg"
     },
     {
         "people": "任剑涛",
@@ -2035,6 +2036,7 @@
         "wiki": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%89%91%E6%B6%9B",
         "vote": 1,
         "hash": "a4e3f325fc81ec0be1513c51cf6eff6a",
-        "photo": "http://rucweb-wordpress.stor.sinaapp.com/uploads/2012/08/renjiantao.jpg"
+        "photo": "http://rucweb-wordpress.stor.sinaapp.com/uploads/2012/08/renjiantao.jpg",
+        "page_updated": "2020-09-28T21:21:44.085Z"
     }
 ]
