@@ -1515,7 +1515,7 @@
         "people": "钱钢",
         "keyword": "香港大学",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%8C%A2%E9%8B%BC",
-        "vote": 3,
+        "vote": 4,
         "hash": "6ce8f7e27670d0c8deb87dfc6fd6a465",
         "photo": "https://d32kak7w9u5ewj.cloudfront.net/media/image/2016/09/d8c3698626964f0ca17d1fb94954dbdd.jpg",
         "imgur": "https://i.imgur.com/NDGzGiQ.jpg",
@@ -2065,5 +2065,13 @@
         "matters": "41",
         "chinesepen": "388",
         "update": "2020-10-22 22:32:16.424828"
+    },
+    {
+        "people": "于劲",
+        "keyword": "作家",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E5%8A%B2_(%E4%BD%9C%E5%AE%B6)",
+        "vote": 1,
+        "hash": "2b34288407abc195726e269d0354d890",
+        "photo": "http://image.chinawriter.com.cn/2009-09-25/UFda0288110001253883400.jpg"
     }
 ]
