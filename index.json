@@ -2154,5 +2154,13 @@
         "vote": 1,
         "hash": "cb2d1df5d5197b418b0a713dff330482",
         "photo": "https://static.dw.com/image/55643108_404.png"
+    },
+    {
+        "people": "戴耀廷",
+        "keyword": "香港",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%88%B4%E8%80%80%E5%BB%B7",
+        "vote": 1,
+        "hash": "b3d06deb6b05eb5d81d724e3e511054a",
+        "photo": "https://i.epochtimes.com/assets/uploads/2020/09/d79240c8b753ed4e2af4661af3574fc2-e1599229347296.jpg"
     }
 ]
