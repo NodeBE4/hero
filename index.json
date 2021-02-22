@@ -93,7 +93,7 @@
         "people": "李文亮",
         "keyword": "医生",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%96%87%E4%BA%AE",
-        "vote": 9,
+        "vote": 10,
         "hash": "6c1617bfa0abc2cbe2ba97b03ab0b2d2",
         "google": "1960000",
         "twitter": "47800",
@@ -1077,7 +1077,7 @@
         "update": "2021-02-21 18:59:27.678044",
         "photo": "http://pic.renwugushi.com/image/20200109/20200109220027_87299.jpg",
         "imgur": "https://i.imgur.com/Db35QaU.jpeg",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "刘再复",
@@ -1311,7 +1311,7 @@
         "matters": "50",
         "chinesepen": "553",
         "update": "2021-02-21 19:56:13.082091",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "裴敏欣",
@@ -1329,7 +1329,7 @@
         "matters": "44",
         "chinesepen": "199",
         "update": "2021-02-21 19:56:31.048889",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "张雪忠",
@@ -1365,7 +1365,7 @@
         "matters": "4540",
         "chinesepen": "90",
         "update": "2021-02-21 19:57:07.052863",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "陈丹青",
@@ -1383,7 +1383,7 @@
         "matters": "89",
         "chinesepen": "745",
         "update": "2021-02-21 19:57:25.734790",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "朱清时",
@@ -1491,7 +1491,7 @@
         "matters": "83",
         "chinesepen": "1150",
         "update": "2021-02-21 20:55:25.174939",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "刘宾雁",
@@ -1509,7 +1509,7 @@
         "matters": "97",
         "chinesepen": "1320",
         "update": "2021-02-21 20:55:45.368293",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "钱钢",
@@ -1527,7 +1527,7 @@
         "matters": "791",
         "chinesepen": "141",
         "update": "2021-02-21 20:56:05.028670",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "丁子霖",
@@ -1815,7 +1815,7 @@
         "matters": "41",
         "chinesepen": "632",
         "update": "2021-02-21 21:56:41.924767",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "余文生",
@@ -1887,7 +1887,7 @@
         "matters": "274",
         "chinesepen": "1060",
         "update": "2021-02-21 21:57:52.053926",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "方方",
@@ -2038,7 +2038,7 @@
         "vote": 1,
         "hash": "a4e3f325fc81ec0be1513c51cf6eff6a",
         "photo": "http://rucweb-wordpress.stor.sinaapp.com/uploads/2012/08/renjiantao.jpg",
-        "page_updated": "2021-02-21T17:31:46.602Z",
+        "page_updated": "2021-02-22T17:35:13.181Z",
         "imgur": "https://i.imgur.com/9fkQih1.jpg",
         "google": "104000",
         "twitter": "311",
@@ -2110,7 +2110,7 @@
         "vote": 1,
         "hash": "5ac8a5f0a0ed14093de8e610af112b9e",
         "photo": "https://www.rfa.org/mandarin/Mimage/xuezhemingren/qianliqu.jpg/@@images/image/social_media",
-        "page_updated": "2021-02-21T17:31:46.602Z",
+        "page_updated": "2021-02-22T17:35:13.181Z",
         "imgur": "https://i.imgur.com/9CNpJXy.jpg",
         "google": "11100000",
         "twitter": "849",
@@ -2209,7 +2209,7 @@
         "matters": "60",
         "chinesepen": "223",
         "update": "2021-02-20 03:54:47.377367",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     },
     {
         "people": "顾准",
@@ -2227,6 +2227,6 @@
         "matters": "66",
         "chinesepen": "1140",
         "update": "2021-02-20 08:55:31.742224",
-        "page_updated": "2021-02-21T17:31:46.602Z"
+        "page_updated": "2021-02-22T17:35:13.181Z"
     }
 ]
