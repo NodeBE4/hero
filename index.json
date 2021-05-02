@@ -2298,5 +2298,13 @@
         "vote": 1,
         "hash": "8621465cc3ea5fe4e78410833db85031",
         "photo": "x-raw-image:///29945a375c00517714717376a6afea45eb6394df136a11b2d56b9b2f20f5c188"
+    },
+    {
+        "people": "任全牛",
+        "keyword": "律师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%85%A8%E7%89%9B",
+        "vote": 1,
+        "hash": "eaf4a26eeeefd3838ed5a54532cbcefc",
+        "photo": "https://www.rfa.org/mandarin/yataibaodao/renquanfazhi/al-02022021073712.html/@@images/image"
     }
 ]
