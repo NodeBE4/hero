@@ -561,7 +561,7 @@
         "people": "陶傑",
         "keyword": "香港作家",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%99%B6%E5%82%91",
-        "vote": 2,
+        "vote": 3,
         "hash": "4b1442ac06ee6e730182f77f7ee71c98",
         "photo": "http://photocdn.sohu.com/20160812/Img463892407.jpg",
         "google": "144000",
@@ -993,7 +993,7 @@
         "people": "杨小凯",
         "keyword": "经济学家",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%9D%A8%E5%B0%8F%E5%87%AF",
-        "vote": 2,
+        "vote": 3,
         "hash": "aac635408a82ffe8ef18d1faec9685dc",
         "photo": "https://wx3.sinaimg.cn/large/540cd814ly1gabm6a5jn5j20go09dthp.jpg",
         "imgur": "https://i.imgur.com/BFp5QEb.jpeg",
@@ -1263,7 +1263,7 @@
         "people": "鲍鹏山",
         "keyword": "教授",
         "wiki": "https://zh.wikipedia.org/wiki/%E9%B2%8D%E9%B9%8F%E5%B1%B1",
-        "vote": 2,
+        "vote": 3,
         "hash": "e683367cbcaa10754a5c8aadebbb46d1",
         "photo": "http://www.fuyuzhiku.com/wp-content/uploads/2019/11/%E9%B2%8D%E9%B9%8F%E5%B1%B1%C2%B7-2.png",
         "imgur": "https://i.imgur.com/nBIckfI.png",
@@ -2290,5 +2290,13 @@
         "vote": 1,
         "hash": "019a5f4861885c9f4ba6af871a78b268",
         "photo": "http://www.tndao.com/wp-content/uploads/2012/08/siweijiang_254x191.jpg"
+    },
+    {
+        "people": "李英强",
+        "keyword": "立人大学",
+        "wiki": "https://baike.baidu.com/item/%E6%9D%8E%E8%8B%B1%E5%BC%BA/7600154",
+        "vote": 1,
+        "hash": "8621465cc3ea5fe4e78410833db85031",
+        "photo": "x-raw-image:///29945a375c00517714717376a6afea45eb6394df136a11b2d56b9b2f20f5c188"
     }
 ]
