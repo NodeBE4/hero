@@ -597,7 +597,7 @@
         "people": "明居正",
         "keyword": "教授",
         "wiki": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%B1%85%E6%AD%A3",
-        "vote": 6,
+        "vote": 7,
         "hash": "f68eaa1a9eac61a0e11226efc25de55a",
         "photo": "https://i.epochtimes.com/assets/uploads/2005/08/508295712815-450x570.jpg",
         "google": "10800000",
@@ -2282,5 +2282,13 @@
         "chinesepen": "191",
         "update": "2021-05-01 18:13:54.220195",
         "page_updated": "2021-05-02T01:32:51.530Z"
+    },
+    {
+        "people": "斯伟江",
+        "keyword": "律师",
+        "wiki": "https://zh.wikipedia.org/wiki/%E6%96%AF%E4%BC%9F%E6%B1%9F",
+        "vote": 1,
+        "hash": "019a5f4861885c9f4ba6af871a78b268",
+        "photo": "http://www.tndao.com/wp-content/uploads/2012/08/siweijiang_254x191.jpg"
     }
 ]
