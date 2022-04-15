@@ -6,7 +6,7 @@ author: 维基百科
 from: https://zh.wikipedia.org/wiki/%E9%9A%BC
 tags: [ 雪隼wolfychan, 维基百科 ]
 categories: [ 雪隼wolfychan ]
-photo: 
+photo: https://i.imgur.com/4OkJkkC.png
 comments: true
 ---
 <div class="mw-parser-output"><div id="noteTA-e9a7bb85" class="noteTA"><div class="noteTA-group"><div data-noteta-group-source="module" data-noteta-group="Unit"></div></div></div>
