@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>余茂春 – 英雄 – 銘記英雄、關注英雄</title>
+
+      <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="
+  
+ 如无特别说明，此條目中的“中國”指中华人民共和国。
+  
+  
+    
+      
+      
+    
+  
+
+" />
+    <meta property="og:description" content="
+  
+ 如无特别说明，此條目中的“中國”指中华人民共和国。
+  
+  
+    
+      
+      
+    
+  
+
+" />
+    
+    <meta name="author" content="英雄" />
+
+    
+    <meta property="og:title" content="余茂春" />
+    <meta property="twitter:title" content="余茂春" />
+    
+
+  <link rel="stylesheet" type="text/css" href="/hero/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="英雄 - 銘記英雄、關注英雄" href="/hero/feed.xml" />
+
+  <!-- Social Share Kit CSS -->
+  <link rel="stylesheet" href="/hero/assets/css/social-share-kit.css" type="text/css" />
+  <link rel="stylesheet" href="/hero/assets/css/gitalk.css" type="text/css" />
+	<link rel="stylesheet" href="/hero/assets/css/font-awesome-color-brand.css"  type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" /> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+
+</head>
+
+  <body>
+    <div class="wrapper-masthead">
+  <div class="container-fluid">
+    <header class="masthead clearfix">
+      
+
+      <div class="site-info">
+        <h1 class="site-name" style="display: inline-block;"><a href="/hero/">英雄</a></h1>
+        <i class="site-description">銘記英雄、關注英雄</i>
+      </div>
+
+      <nav>
+        <span id="search-container" >
+        <a><i class="fa fa-search" title="限前100結果"></i></a><input type="text" id="search-input" placeholder="姓名 生平 案例 职业 (143)"
+          style="margin: 10px 0px 0px 0px; height: 30px;width: auto" title="本站最正確的打開方式">
+        </span>
+        
+        
+        <a href="/hero/categories"><i class="fa fa-tags" title="分类"></i></a>
+        
+        
+        
+        <a href="https://be4.herokuapp.com/" style="color: #003366;"><i class="fa fa-comments" title="论坛"></i></a>
+        
+        
+        
+        <a href="/hero/about"><i class="fa fa-info-circle" title="关于"></i></a>
+        
+        
+        <a title="电脑热键：&larr;上一篇(页), &rarr;下一篇(页), ins同来源新一篇，del同来源旧一篇" onclick="toggle_visibility('help')"><i class="fa fa-question-circle"></i></a>
+        <a id="fa-home" href="https://nodebe4.github.io" title="BE4服务列表" onclick="//toggle_visibility('site-list')"><i class="fa fa-home" aria-hidden="true"></i></a>
+      </nav>
+
+    </header>
+    <div id="site-list" class="tags" style="display: block;text-align: right;border-bottom: 1px solid lightGray;"></div>
+    <p id="help" style="font-size: 14px;display: none;text-align: right;"><span style="color:green;">电脑热键：&larr;上一篇(页), &rarr;下一篇(页), ins同来源新一篇, del同来源旧一篇</span>; <span style="color:orange">对应触屏FAB：上下右左</span></p>
+  </div>
+</div>
+
+<script type="text/javascript" >
+  function toggle_visibility(id){
+    var help = document.getElementById(id)
+    if (help.style.display=='none'){
+      help.style.display='block';
+    }else{
+      help.style.display='none';
+    }
+  }
+
+  const url = "https://nodebe4.github.io/sitelist.json"
+
+  document.addEventListener("DOMContentLoaded", function(event){
+    // var homebtn = document.getElementById("fa-home")
+    // homebtn.removeAttribute("href")
+    var content = document.getElementById("site-list");
+    content.innerHTML = ''
+    var ul = document.createElement("ul")
+    ul.classList.add("label")
+    content.appendChild(ul)
+    var cnt = 0
+
+    $.getJSON(url, function(allsites) {
+
+      allsites.map(item =>{
+        var li = document.createElement('li')
+        li.classList.add("tag")
+        li.id = 'site-' + cnt
+        ul.appendChild(li)
+        var a0 = document.createElement('a')
+        li.appendChild(a0)
+        a0.href = item.url[0]
+        var span = document.createElement('span')
+        a0.appendChild(span)
+        span.innerText = item['name']
+        // span.style.backgroundColor = item['background-color']
+        // span.style.color='#E4CBC3'
+        span.style.color = item['background-color']
+        span.style['font-size'] = '14px'
+        cnt += 1
+        // test_alive(li.id, a0.href)
+      })
+    })
+  })
+
+function test_alive(id, url){
+  var divstatus = document.getElementById(id)
+  const base = 'https://textance.herokuapp.com/title/'
+  var fullurl = base + url
+  $.ajax({
+      url: fullurl,
+      complete: function(data) {
+        if (data.responseText.includes('502')){
+          // divstatus.style.color='#FBB7B7'
+          // divstatus.style.color='gray'
+          // divstatus.title = "服务器无响应"
+          divstatus.parentNode.removeChild(divstatus)
+        }else{
+          // divstatus.style.color='#B6FAC8'
+          divstatus.title = data.responseText
+        }
+      }
+  });
+  return divstatus
+}
+</script>
+
+    <!-- Left & centered positioning -->
+
+<div class="ssk-sticky ssk-right ssk-center ssk-sticky-hide-xs ssk-group ssk-round">
+    <a href="https://be4news.pythonanywhere.com/archivenow/ia/https%3A%2F%2Fnodebe4.github.io%2Fhero%2F%25E4%25BD%2599%25E8%258C%2582%25E6%2598%25A5%2F" class="ssk ssk-link" title="存到互联网档案馆" target="_blank"></a>
+    <a href="https://www.facebook.com/sharer.php?u=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/" class="ssk ssk-facebook"></a>
+    <a href="https://twitter.com/intent/tweet?url=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/&text=余茂春&hashtags=英雄" class="ssk ssk-twitter"></a>
+    <a href="https://reddit.com/submit?url=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/&title=余茂春" class="ssk ssk-reddit"></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/&title=余茂春" class="ssk ssk-linkedin"></a>
+    <a href="mailto:{email_address}?subject=余茂春&body=
+  
+ 如无特别说明，此條目中的“中國”指中华人民共和国。
+  
+  
+    
+      
+      
+    
+  
+
+" class="ssk ssk-email"></a>
+    <a href="http://pinterest.com/pin/create/link/?url=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/" class="ssk ssk-pinterest"></a>
+    <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/&title=余茂春&caption=
+  
+ 如无特别说明，此條目中的“中國”指中华人民共和国。
+  
+  
+    
+      
+      
+    
+  
+
+&tags=英雄" class="ssk ssk-tumblr"></a>
+    <a href="https://buffer.com/add?text=余茂春&url=https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/" class="ssk ssk-buffer"></a>
+</div>
+
+
+    <div id="main" role="main" class="container-fluid">
+      
+
+
+
+
+
+
+
+  
+    
+
+
+  
+    
+
+
+
+<article class="post">
+  <h1>余茂春</h1>
+  <!-- Look the author details up from the site config. -->
+  
+
+  <div>
+    <span class="date">
+      1989-06-04
+    </span>
+
+    <!-- Output author details if some exist. -->
+    
+      
+        <span>
+            <!-- Personal Info. -->
+            <a  style="font-size:14px;">作者: 维基百科</a>
+        </span>
+      
+    
+
+
+    <ul class="tag">
+      <li>
+        <a href="https://nodebe4.github.io/hero/categories/#余茂春">
+          余茂春
+        </a>
+      </li>
+    </ul>
+
+    
+        <span>
+            <!-- Personal Info. -->
+            <a href="https://zh.wikipedia.org/wiki/%E4%BD%99%E8%8C%82%E6%98%A5" style="font-size:14px;">维基百科链接</a>
+        </span>
+    
+
+    <span style="float: right;" title="余茂春的其它文章">
+      <a style="font-size: 14px;" rel="nofollow" href="#sametag" class="tags">#余茂春 的其它文章</a>
+    </span>
+
+  </div>
+
+  <div class="entry">
+    
+    
+    
+    
+    <img src="https://i.imgur.com/1uITwhm.jpeg" alt="余茂春的照片" align="right" style="max-width: 200px;"/>
+    
+    <div class="mw-parser-output">
+  <div role="note" class="hatnote navigation-not-searchable">
+<a href="/wiki/File:Nuvola_apps_important_yellow.svg" class="image"><img alt="Nuvola apps important yellow.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nuvola_apps_important_yellow.svg/20px-Nuvola_apps_important_yellow.svg.png" decoding="async" width="20" height="17" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nuvola_apps_important_yellow.svg/30px-Nuvola_apps_important_yellow.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nuvola_apps_important_yellow.svg/40px-Nuvola_apps_important_yellow.svg.png 2x" data-file-width="600" data-file-height="500" /></a> 如无特别说明，此條目中的“<a href="/wiki/%E4%B8%AD%E5%9C%8B" title="中國">中國</a>”指<a href="/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD" title="中华人民共和国">中华人民共和国</a>。
+  </div>
+  <div id="noteTA-26f66ddf" class="noteTA">
+    <div class="noteTA-group">
+      <div data-noteta-group-source="module" data-noteta-group="PresidentsUS"></div>
+      <div data-noteta-group-source="module" data-noteta-group="USState"></div>
+    </div>
+  </div>
+  <p><strong>余茂春</strong>（英語：<span lang="en">Miles Maochun Yu</span>，1962年8月8日<span class="useeditintro" title="Template:BLP editintro">—</span>），<a href="/wiki/%E5%8D%8E%E8%A3%94%E7%BE%8E%E5%9B%BD%E4%BA%BA" title="华裔美国人">美國華裔</a>学者、政治家、<a href="/wiki/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E5%AD%A6%E9%99%A2" title="美国海军学院">美国海军学院</a>东亚和军事史教授，曾担任《<a href="/wiki/%E5%8D%8E%E7%9B%9B%E9%A1%BF%E6%97%B6%E6%8A%A5" title="华盛顿时报">华盛顿时报</a>》专栏作家、<a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%8A%A1%E9%99%A2" title="美国国务院">美国国务院</a><a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%8A%A1%E5%8D%BF" title="美国国务卿">国务卿</a><a href="/wiki/%E6%94%BF%E7%AD%96%E8%A7%84%E5%88%92%E5%8A%9E%E5%85%AC%E5%AE%A4" title="政策规划办公室">政策规划办公室</a>中国大陸政策规划首席顾问<sup id="cite_ref-BGWT_4-0" class="reference"><a href="#cite_note-BGWT-4">[3]</a></sup>，是中国大陸留美学生中进入美国国务院对华政策核心圈的第一人。他在<a href="/wiki/%E5%B7%9D%E6%99%AE" class="mw-redirect" title="川普">川普</a>政府以後的美國對華扭轉政策上，提出不少參考意見。</p>
+  <p>作为对美方制裁中国大陸官员的反制，中国大陸政府在2022年底对余茂春实行制裁。</p>
+  <p>现为<a href="/wiki/%E5%93%88%E5%BE%B7%E9%81%9C%E7%A0%94%E7%A9%B6%E6%89%80" title="哈德遜研究所">哈德逊研究所</a>中国中心主任及<a href="/wiki/%E8%83%A1%E4%BD%9B%E7%A0%94%E7%A9%B6%E6%89%80" title="胡佛研究所">胡佛研究所</a>客座研究員。<sup id="cite_ref-voa1117_5-0" class="reference"><a href="#cite_note-voa1117-5">[4]</a></sup></p>
+</div>
+<!--esi <esi:include src="/esitest-fa8a495983347898/content" /> -->
+<noscript>
+<img src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" />
+</noscript>
+<div class="printfooter" data-nosnippet="">
+取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=余茂春&amp;oldid=76856460">https://zh.wikipedia.org/w/index.php?title=余茂春&amp;oldid=76856460</a>”
+</div>
+<div id="recent-news">
+  <h3 id="section">最近动态</h3>
+  <ul>
+  </ul>
+</div>
+<div id="open-opinion">
+  <h3 id="section-1">相关言论</h3>
+  <ul>
+    <li><a href="https://nodebe4.github.io/opinion/2021-04-07/%E4%BD%99%E8%8C%82%E6%98%A5-%E4%B8%8B-%E4%B8%AD%E5%85%B1%E8%A6%81%E5%9C%A8%E5%85%A8%E7%90%83%E4%B8%8E%E7%BE%8E%E5%9B%BD%E4%BA%89%E9%9C%B8-%E8%A7%82%E7%82%B9/" title="自由亚洲电台">余茂春（下）：中共要在全球与美国争霸｜观点</a>      <time>2021-04-07</time>
+<a class="tag">RFA</a></li>
+    <li><a href="https://nodebe4.github.io/opinion/2021-03-17/%E4%BD%99%E8%8C%82%E6%98%A5-%E7%BE%8E%E4%B8%AD%E6%88%98%E7%95%A5%E7%AB%9E%E4%BA%89%E6%B2%A1%E6%9C%89%E5%8F%8C%E8%B5%A2-%E8%A7%82%E7%82%B9/" title="自由亚洲电台">余茂春:美中战略竞争没有双赢|观点</a>      <time>2021-03-17</time>
+<a class="tag">RFA</a></li>
+    <li><a href="https://nodebe4.github.io/opinion/2020-11-23/558-%E6%88%98%E7%95%A5%E6%83%85%E6%8A%A5%E5%B1%80%E5%9C%A8%E4%B8%AD%E5%9B%BD-%E5%86%B7%E6%88%98%E5%89%8D%E5%A4%95-%E4%BD%99%E8%8C%82%E6%98%A5/" title="野兽爱智慧">558 战略情报局在中国：冷战前夕|余茂春</a>      <time>2020-11-23</time>
+<a class="tag">Matters</a></li>
+  </ul>
+</div>
+<div id="mjls-record">
+  <h3 id="section-2">民间历史</h3>
+  <ul>
+  </ul>
+</div>
+
+  </div>
+
+  <hr style="border-top:1px solid #28323C;"/>
+
+<font size=2px>
+  文章版权归原作者所有。
+</font>
+
+
+  <div id="sametag">
+    <h4 style="display: inline-block;">#余茂春 的其它文章</h4>
+    <span>--<a href="https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/">最新</a>-</span>
+    <span>-<a href="https://nodebe4.github.io/hero/%E4%BD%99%E8%8C%82%E6%98%A5/">最早</a>--</span>
+    
+    
+    
+    
+  </div>
+
+
+  <hr>
+  <div class="pagination">
+    
+      <span class="prev" >
+          <a href="https://nodebe4.github.io/hero/%E4%BD%99%E8%8B%B1%E6%99%82/">
+            前一篇：余英時
+          </a>
+      </span>
+    
+    
+      <span class="next" >
+          <a href="https://nodebe4.github.io/hero/%E5%86%89%E4%BA%91%E9%A3%9E/">
+            後一篇：冉云飞
+          </a>
+      </span>
+    
+
+    <script>
+    /* post pagination keyboard shortcuts */
+    document.body.onkeyup = function(e){
+      if (e.keyCode == '37') { window.location = 'https://nodebe4.github.io/hero/%E4%BD%99%E8%8B%B1%E6%99%82/'; } // left arrow key
+      if (e.keyCode == '39') { window.location = 'https://nodebe4.github.io/hero/%E5%86%89%E4%BA%91%E9%A3%9E/'; } // right arrow key
+      if (e.keyCode == '45') { window.location = 'https://nodebe4.github.io/hero'; } // insert key
+      if (e.keyCode == '46') { window.location = 'https://nodebe4.github.io/hero'; } // delete key
+    };
+    </script>
+    <link rel="stylesheet" type="text/css" href="/hero/assets/css/fab.css" />
+
+<div class="fab-wrapper">
+  <div class="fab-wheel">
+    
+    
+    
+    <a class="fab-action fab-action-1" title="上一篇(热键 &#8594;)" href="https://nodebe4.github.io/hero/%E4%BD%99%E8%8B%B1%E6%99%82/">
+      <i>后</i>
+    </a>
+    
+    
+    <a class="fab-action fab-action-2" title="下一篇(热键 &#8592;)" href="https://nodebe4.github.io/hero/%E5%86%89%E4%BA%91%E9%A3%9E/">
+      <i>前</i>
+    </a>
+    
+    
+    
+  </div>
+</div>
+
+
+  </div>
+
+
+  
+
+
+
+
+
+	<div id="gitalk-container"></div>
+
+	<script src="https://nodebe4.github.io/hero/assets/js/gitalk.min.js"></script>
+	<script src="https://nodebe4.github.io/hero/assets/js/md5.min.js"></script>
+
+  <script type="text/javascript">
+		const gitalk = new Gitalk({
+		  clientID: 'be92e004d07a5eb7c6de',
+		  clientSecret: 'b15a95e9eb1e24d7a8e21c1ca1d8fa26651ed69c',
+		  repo: 'hero-comments',
+		  owner: 'NodeBE4',
+		  admin: ['NodeBE4','duty-machine','thphd',],
+		  id: md5('/%E4%BD%99%E8%8C%82%E6%98%A5/'),      // Ensure uniqueness and length less than 50
+		  distractionFreeMode: false,  // Facebook-like distraction free mode
+			language: 'zh-CN',
+			pagerDirection: 'first',
+			perPage: 50,
+		})
+
+		gitalk.render('gitalk-container')
+	</script>
+
+
+
+
+
+</article>
+
+    </div>
+
+    <div style="z-index:2;">
+<script src="/hero/assets/js/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 56,
+  cornerOffset: 20, // px
+  id: 'back-to-top',
+  backgroundColor: '#ddd',
+  textColor: 'red'
+})</script>
+</div>
+
+
+    <div class="wrapper-footer" id="footer">
+      <div class="container">
+        <footer class="footer">
+          <img width="100px" src="https://i.imgur.com/oadCHjW.png" alt="本链接的QRcode"/>
+
+<!-- Refer to https://codepen.io/ruandre/pen/howFi -->
+<ul class="svg-icon">
+
+  
+
+  
+
+  
+  <li><a href="mailto:beauti4@protonmail.com" class="icon-8 email" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg><!--[if lt IE 9]><em>Email</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+  <li><a href="https://github.com/NodeBE4/hero" class="icon-13 github" title="GitHub"><svg viewBox="0 0 512 512"><path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"/></svg><!--[if lt IE 9]><em>GitHub</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <li><a href="/hero/feed.xml" class="icon-21 rss" title="RSS"><svg viewBox="0 0 512 512"><path d="M201.8 347.2c0 20.3-16.5 36.8-36.8 36.8 -20.3 0-36.8-16.5-36.8-36.8s16.5-36.8 36.8-36.8C185.3 310.4 201.8 326.8 201.8 347.2zM128.2 204.7v54.5c68.5 0.7 124 56.3 124.7 124.7h54.5C306.7 285.3 226.9 205.4 128.2 204.7zM128.2 166.6c57.9 0.3 112.3 22.9 153.2 63.9 41 41 63.7 95.5 63.9 153.5h54.5c-0.3-149.9-121.7-271.4-271.6-271.9V166.6L128.2 166.6z"/></svg><!--[if lt IE 9]><em>RSS</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+</ul>
+
+
+
+
+
+<p><a href="https://line-count.herokuapp.com/nodebe4/hero">line_count</a> <a href="https://git.io/JUt9v">短鏈接</a> <a href="https://2047.name/qr/https://git.io/JUt9v">二維碼分享此頁</a> Powered by <a href="https://github.com/AWEEKJ/kiko-now">Kiko Now</a> & <a href="https://github.com/gitalk/gitalk">Gitalk</a>, 站务反馈 <a href="https://be4.herokuapp.com">NodeBE4</a>（<span style="color:red">已被墙</span>）</p>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+
+
+  </body>
+</html>
