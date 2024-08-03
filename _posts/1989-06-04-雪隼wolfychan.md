@@ -152,13 +152,13 @@ comments: true
 
 <!-- 
 NewPP limit report
-Parsed by mw‐web.eqiad.main‐5f885fcbf4‐c8dzh
-Cached time: 20240801140845
+Parsed by mw‐web.codfw.main‐74fdc5768b‐prqvx
+Cached time: 20240801143146
 Cache expiry: 2592000
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.777 seconds
-Real time usage: 1.270 seconds
+CPU time usage: 0.687 seconds
+Real time usage: 0.925 seconds
 Preprocessor visited node count: 7061/1000000
 Post‐expand include size: 125567/2097152 bytes
 Template argument size: 4258/2097152 bytes
@@ -166,25 +166,25 @@ Highest expansion depth: 25/100
 Expensive parser function count: 36/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 23196/5000000 bytes
-Lua time usage: 0.511/10.000 seconds
+Lua time usage: 0.466/10.000 seconds
 Lua memory usage: 6257667/52428800 bytes
 Number of Wikibase entities loaded: 19/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 1158.602      1 -total
- 31.89%  369.510      1 Template:Taxonbar
- 31.16%  361.075      1 Template:AutoTaxobox
- 24.43%  282.998      3 Template:Navbox
- 12.78%  148.105      1 Template:隼形目
-  6.54%   75.824      1 Template:Otheruses
-  6.21%   71.967      1 Template:Hatnote
-  6.03%   69.918      1 Template:Reflist
-  5.32%   61.621      1 Template:ISBN
-  4.69%   54.292     15 Template:Le
+100.00%  828.011      1 -total
+ 38.06%  315.158      1 Template:AutoTaxobox
+ 34.32%  284.178      3 Template:Navbox
+ 17.37%  143.813      1 Template:隼形目
+ 16.23%  134.363      1 Template:Taxonbar
+  7.33%   60.700     15 Template:Le
+  7.33%   60.654      1 Template:Otheruses
+  6.91%   57.239      1 Template:Hatnote
+  6.32%   52.358      1 Template:NoteTA
+  6.16%   51.025      1 Template:Reflist
 -->
 
-<!-- Saved in parser cache with key zhwiki:pcache:idhash:20674-0!canonical!zh and timestamp 20240801140845 and revision id 80975300. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:20674-0!canonical!zh and timestamp 20240801143146 and revision id 80975300. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">检索自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300">https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300</a>”</div><div id="recent-news"><h3>最近动态</h3><ul></ul></div><div id="open-opinion"><h3>相关言论</h3><ul></ul></div><div id="mjls-record"><h3>民间历史</h3><ul></ul></div>
