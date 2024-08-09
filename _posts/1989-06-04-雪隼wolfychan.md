@@ -13,7 +13,7 @@ comments: true
 <div role="note" class="hatnote navigation-not-searchable"><span typeof="mw:File"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png" decoding="async" width="25" height="19" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/38px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/50px-Disambig_gray.svg.png 2x" data-file-width="220" data-file-height="168"></a></span><style data-mw-deduplicate="TemplateStyles:r74069148">body:not(.skin-minerva) .mw-parser-output .ifmobile>.mobile{display:none}body.skin-minerva .mw-parser-output .ifmobile>.nomobile{display:inherit;display:initial}</style><span class="ifmobile"><span class="nomobile">&nbsp;&nbsp;</span><span class="mobile"></span></span>关于与「<b>隼</b>」標題相近或相同的条目页，請見「<b><a href="/wiki/%E9%9A%BC_(%E6%B6%88%E6%AD%A7%E7%BE%A9)" class="mw-disambig" title="隼 (消歧義)">隼 (消歧義)</a></b>」。</div>
 <p class="mw-empty-elt">
 </p>
-<style data-mw-deduplicate="TemplateStyles:r83195053">html.skin-theme-clientpref-night .mw-parser-output .infobox.biota tr{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .infobox.biota img{background:white}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox.biota tr{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .infobox.biota img{background:white}}.mw-parser-output .infobox.biota .taxobox-edit-taxonomy img{background:transparent!important}body.skin--responsive .mw-parser-output table.biota.infobox tr.taxonrow td{padding:2px 10px}</style>
+<style data-mw-deduplicate="TemplateStyles:r83732977">@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox.biota tr{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .infobox.biota img{background:white}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox.biota tr{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .infobox.biota img{background:white}}.mw-parser-output .infobox.biota .taxobox-edit-taxonomy img{background:transparent!important}body.skin--responsive .mw-parser-output table.biota.infobox tr.taxonrow td{padding:2px 10px}</style>
 <p><b>隼属</b>（<a href="/wiki/%E5%AD%A6%E5%90%8D" class="mw-redirect" title="学名">学名</a>：<span lang="la"><i>Falco</i></span>）在<a href="/wiki/%E7%94%9F%E7%89%A9%E5%88%86%E7%B1%BB%E5%AD%A6" title="生物分类学">生物分类学</a>上是<a href="/wiki/%E9%9A%BC%E5%BD%A2%E7%9B%AE" title="隼形目">隼形目</a><a href="/wiki/%E9%9A%BC%E7%A7%91" title="隼科">隼科</a>中的一个<a href="/wiki/%E5%B1%9E_(%E7%94%9F%E7%89%A9)" class="mw-redirect" title="属 (生物)">属</a>，属于小型<a href="/wiki/%E7%8C%9B%E7%A6%BD" title="猛禽">猛禽</a>，食肉，廣泛分佈在世界除南極洲以外的所有大陸。近30种，为白昼出的猛禽，主要特征是翅长而尖，飞行迅速有力。隼一名严格说只适用隼属的35种以上（真隼）。隼遍布全球。体型大小各异，自15厘米的小隼到长约60厘米的北极产的白隼。真隼的雌鸟个体较大，较凶猛，故鹰猎者喜用雌隼。隼的腿上覆盖着称为“旗”的羽毛，喙上有缺刻，在隼属诸种特别显著，形成齿状。
 </p>
 <meta property="mw:PageProp/toc">
@@ -102,7 +102,7 @@ comments: true
 		</li>
 </ul>
 <div class="mw-heading mw-heading2"><h2 id="分类"><span id=".E5.88.86.E7.B1.BB"></span>分类</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E9%9A%BC&amp;action=edit&amp;section=3" title="编辑章节：分类"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
-<p>本属包括的物种如下<sup id="cite_ref-White_1-0" class="reference"><a href="#cite_note-White-1">[1]</a></sup>：
+<p>本属包括的物种如下<sup id="cite_ref-White_1-0" class="reference"><a href="#cite_note-White-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>：
 </p>
 <ul><li><a href="/wiki/%E9%A9%AC%E5%B2%9B%E9%9A%BC" class="mw-redirect" title="马岛隼">马岛隼</a> <i>Falco newtoni</i></li>
 <li><a href="/wiki/%E5%A1%9E%E8%88%8C%E5%B0%94%E9%9A%BC" class="mw-redirect" title="塞舌尔隼">塞舌尔隼</a> <i>Falco araea</i></li>
@@ -152,39 +152,39 @@ comments: true
 
 <!-- 
 NewPP limit report
-Parsed by mw‐web.codfw.main‐74fdc5768b‐prqvx
-Cached time: 20240801143146
+Parsed by mw‐web.codfw.main‐677fb7ddb4‐lvlx7
+Cached time: 20240809065520
 Cache expiry: 2592000
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.687 seconds
-Real time usage: 0.925 seconds
-Preprocessor visited node count: 7061/1000000
+CPU time usage: 0.645 seconds
+Real time usage: 0.890 seconds
+Preprocessor visited node count: 7065/1000000
 Post‐expand include size: 125567/2097152 bytes
 Template argument size: 4258/2097152 bytes
 Highest expansion depth: 25/100
 Expensive parser function count: 36/500
 Unstrip recursion depth: 1/20
-Unstrip post‐expand size: 23196/5000000 bytes
-Lua time usage: 0.466/10.000 seconds
+Unstrip post‐expand size: 23291/5000000 bytes
+Lua time usage: 0.422/10.000 seconds
 Lua memory usage: 6257667/52428800 bytes
 Number of Wikibase entities loaded: 19/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  828.011      1 -total
- 38.06%  315.158      1 Template:AutoTaxobox
- 34.32%  284.178      3 Template:Navbox
- 17.37%  143.813      1 Template:隼形目
- 16.23%  134.363      1 Template:Taxonbar
-  7.33%   60.700     15 Template:Le
-  7.33%   60.654      1 Template:Otheruses
-  6.91%   57.239      1 Template:Hatnote
-  6.32%   52.358      1 Template:NoteTA
-  6.16%   51.025      1 Template:Reflist
+100.00%  782.945      1 -total
+ 35.74%  279.842      1 Template:AutoTaxobox
+ 28.42%  222.516      3 Template:Navbox
+ 17.84%  139.677      1 Template:Taxonbar
+ 16.18%  126.683      1 Template:隼形目
+  9.53%   74.603      1 Template:Otheruses
+  9.14%   71.589      1 Template:Hatnote
+  6.30%   49.332      1 Template:NoteTA
+  5.87%   45.963      1 Template:Reflist
+  5.17%   40.517     15 Template:Le
 -->
 
-<!-- Saved in parser cache with key zhwiki:pcache:idhash:20674-0!canonical!zh and timestamp 20240801143146 and revision id 80975300. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:20674-0!canonical!zh and timestamp 20240809065520 and revision id 80975300. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">检索自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300">https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300</a>”</div><div id="recent-news"><h3>最近动态</h3><ul></ul></div><div id="open-opinion"><h3>相关言论</h3><ul></ul></div><div id="mjls-record"><h3>民间历史</h3><ul></ul></div>
