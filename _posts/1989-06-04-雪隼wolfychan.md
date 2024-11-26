@@ -10,7 +10,7 @@ photo: https://i.imgur.com/4OkJkkC.png
 comments: true
 ---
 <div class="mw-content-ltr mw-parser-output" lang="zh" dir="ltr"><div id="noteTA-7334c858" class="noteTA"><div class="noteTA-group"><div data-noteta-group-source="module" data-noteta-group="Unit"></div></div></div>
-<style data-mw-deduplicate="TemplateStyles:r84833064">.mw-parser-output .hatnote{font-size:small}.mw-parser-output div.hatnote{padding-left:2em;margin-bottom:0.8em;margin-top:0.8em}.mw-parser-output .hatnote-notice-img::after{content:"\202f \202f \202f \202f "}.mw-parser-output .hatnote-notice-img-small::after{content:"\202f \202f "}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}body.skin-minerva .mw-parser-output .hatnote-notice-img,body.skin-minerva .mw-parser-output .hatnote-notice-img-small{display:none}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role="note" class="hatnote navigation-not-searchable"><span typeof="mw:File"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png" decoding="async" width="25" height="19" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/38px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/50px-Disambig_gray.svg.png 2x" data-file-width="220" data-file-height="168"></a></span><style data-mw-deduplicate="TemplateStyles:r74069148">body:not(.skin-minerva) .mw-parser-output .ifmobile>.mobile{display:none}body.skin-minerva .mw-parser-output .ifmobile>.nomobile{display:inherit;display:initial}</style><span class="ifmobile"><span class="nomobile">&nbsp;&nbsp;</span><span class="mobile"></span></span>关于与「<b>隼</b>」標題相近或相同的条目页，請見「<b><a href="/wiki/%E9%9A%BC_(%E6%B6%88%E6%AD%A7%E7%BE%A9)" class="mw-disambig" title="隼 (消歧義)">隼 (消歧義)</a></b>」。</div>
+<style data-mw-deduplicate="TemplateStyles:r85099211">.mw-parser-output .hatnote{font-size:small}.mw-parser-output div.hatnote{padding-left:2em;margin-bottom:0.8em;margin-top:0.8em}.mw-parser-output .hatnote-notice-img::after{content:"\202f \202f \202f \202f "}.mw-parser-output .hatnote-notice-img-small::after{content:"\202f \202f "}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}body.skin-minerva .mw-parser-output .hatnote-notice-img,body.skin-minerva .mw-parser-output .hatnote-notice-img-small{display:none}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role="note" class="hatnote navigation-not-searchable"><span typeof="mw:File"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png" decoding="async" width="25" height="19" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/38px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/50px-Disambig_gray.svg.png 2x" data-file-width="220" data-file-height="168"></a></span><style data-mw-deduplicate="TemplateStyles:r74069148">body:not(.skin-minerva) .mw-parser-output .ifmobile>.mobile{display:none}body.skin-minerva .mw-parser-output .ifmobile>.nomobile{display:inherit;display:initial}</style><span class="ifmobile"><span class="nomobile">&nbsp;&nbsp;</span><span class="mobile"></span></span>关于与「<b>隼</b>」標題相近或相同的条目页，請見「<b><a href="/wiki/%E9%9A%BC_(%E6%B6%88%E6%AD%A7%E7%BE%A9)" class="mw-disambig" title="隼 (消歧義)">隼 (消歧義)</a></b>」。</div>
 <p class="mw-empty-elt">
 </p>
 <style data-mw-deduplicate="TemplateStyles:r83732977">@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox.biota tr{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .infobox.biota img{background:white}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox.biota tr{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .infobox.biota img{background:white}}.mw-parser-output .infobox.biota .taxobox-edit-taxonomy img{background:transparent!important}body.skin--responsive .mw-parser-output table.biota.infobox tr.taxonrow td{padding:2px 10px}</style>
@@ -152,13 +152,13 @@ comments: true
 <div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r84265675"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r84261037"></div><div role="navigation" class="navbox" aria-labelledby="分類單元識別-&amp;#123;&amp;#125;-碼" style="padding:3px"></div>
 <!-- 
 NewPP limit report
-Parsed by mw‐api‐int.codfw.main‐849f99967d‐nwn7m
-Cached time: 20241124083436
+Parsed by mw‐web.eqiad.main‐64cd99f567‐jvtr8
+Cached time: 20241125171621
 Cache expiry: 2592000
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.728 seconds
-Real time usage: 1.109 seconds
+CPU time usage: 0.722 seconds
+Real time usage: 1.002 seconds
 Preprocessor visited node count: 7161/1000000
 Post‐expand include size: 123647/2097152 bytes
 Template argument size: 4339/2097152 bytes
@@ -166,25 +166,25 @@ Highest expansion depth: 25/100
 Expensive parser function count: 36/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 33319/5000000 bytes
-Lua time usage: 0.497/10.000 seconds
-Lua memory usage: 6412623/52428800 bytes
+Lua time usage: 0.486/10.000 seconds
+Lua memory usage: 6413770/52428800 bytes
 Number of Wikibase entities loaded: 19/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  932.368      1 -total
- 37.72%  351.658      1 Template:AutoTaxobox
- 28.28%  263.697      3 Template:Navbox
- 17.50%  163.142      1 Template:Taxonbar
- 16.22%  151.196      1 Template:隼形目
-  7.68%   71.563      1 Template:Otheruses
-  7.31%   68.202      1 Template:Hatnote
-  6.93%   64.626      1 Template:NoteTA
-  5.09%   47.445      1 Template:Reflist
-  4.76%   44.373     15 Template:Le
+100.00%  908.768      1 -total
+ 35.58%  323.385      1 Template:AutoTaxobox
+ 29.60%  268.970      3 Template:Navbox
+ 17.99%  163.463      1 Template:Taxonbar
+ 17.13%  155.710      1 Template:隼形目
+  7.95%   72.262      1 Template:Otheruses
+  7.45%   67.743      1 Template:Hatnote
+  6.21%   56.414      1 Template:NoteTA
+  5.21%   47.379      1 Template:Reflist
+  4.59%   41.669      1 Template:ISBN
 -->
 
-<!-- Saved in parser cache with key zhwiki:pcache:idhash:20674-0!canonical!zh and timestamp 20241124083436 and revision id 80975300. Rendering was triggered because: api-parse
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:20674-0!canonical!zh and timestamp 20241125171621 and revision id 80975300. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">检索自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300">https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300</a>”</div><div id="recent-news"><h3>最近动态</h3><ul></ul></div><div id="open-opinion"><h3>相关言论</h3><ul></ul></div><div id="mjls-record"><h3>民间历史</h3><ul></ul></div>
