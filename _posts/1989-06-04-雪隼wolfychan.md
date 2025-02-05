@@ -152,13 +152,13 @@ comments: true
 <div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r84265675"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r84261037"></div><div role="navigation" class="navbox" aria-labelledby="分類單元識別-&amp;#123;&amp;#125;-碼" style="padding:3px"></div>
 <!-- 
 NewPP limit report
-Parsed by mw‐web.codfw.main‐dd7b9dc85‐jfwmk
-Cached time: 20250202154043
+Parsed by mw‐web.eqiad.main‐85fdcf9895‐r22b4
+Cached time: 20250202173117
 Cache expiry: 2592000
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.581 seconds
-Real time usage: 0.801 seconds
+CPU time usage: 0.721 seconds
+Real time usage: 1.049 seconds
 Preprocessor visited node count: 6983/1000000
 Post‐expand include size: 132045/2097152 bytes
 Template argument size: 4118/2097152 bytes
@@ -166,25 +166,25 @@ Highest expansion depth: 23/100
 Expensive parser function count: 19/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 33054/5000000 bytes
-Lua time usage: 0.404/10.000 seconds
+Lua time usage: 0.485/10.000 seconds
 Lua memory usage: 6230530/52428800 bytes
 Number of Wikibase entities loaded: 19/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  705.313      1 -total
- 39.29%  277.109      3 Template:Navbox
- 34.54%  243.598      1 Template:AutoTaxobox
- 21.37%  150.701      1 Template:隼形目
- 16.59%  116.995      1 Template:Taxonbar
-  7.81%   55.112     15 Template:Le
-  7.00%   49.390      1 Template:Otheruses
-  6.57%   46.308      1 Template:NoteTA
-  6.56%   46.242      1 Template:Hatnote
-  5.58%   39.347      1 Template:Reflist
+100.00%  957.828      1 -total
+ 35.19%  337.052      3 Template:Navbox
+ 34.44%  329.872      1 Template:AutoTaxobox
+ 19.52%  186.975      1 Template:隼形目
+ 18.77%  179.819      1 Template:Taxonbar
+  7.46%   71.430      1 Template:NoteTA
+  6.76%   64.789     15 Template:Le
+  6.21%   59.510      1 Template:Reflist
+  5.88%   56.292      1 Template:Otheruses
+  5.51%   52.805      1 Template:ISBN
 -->
 
-<!-- Saved in parser cache with key zhwiki:pcache:20674:|#|:idhash:canonical!zh and timestamp 20250202154043 and revision id 80975300. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key zhwiki:pcache:20674:|#|:idhash:canonical!zh and timestamp 20250202173117 and revision id 80975300. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=0" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">检索自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300">https://zh.wikipedia.org/w/index.php?title=隼&amp;oldid=80975300</a>”</div><div id="recent-news"><h3>最近动态</h3><ul></ul></div><div id="open-opinion"><h3>相关言论</h3><ul></ul></div><div id="mjls-record"><h3>民间历史</h3><ul></ul></div>
